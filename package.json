@@ -1,0 +1,19 @@
+{
+  "name": "fmod-generate-type",
+  "private": true,
+  "version": "0.1.0",
+  "types": "src/index.d.ts",
+  "files": [
+    "src/index.d.ts",
+    "src/manual-overrides.d.ts",
+    "generated/fmod.host.generated.d.ts",
+    "generated/fmod.project-model.generated.d.ts",
+    "generated/fmod.project-extensions.generated.d.ts"
+  ],
+  "scripts": {
+    "build:tools": "tsc -p tsconfig.json",
+    "build:dts": "npm run build:tools && node dist/tools/build-dts.js",
+    "check:types": "npm run build:dts && tsc -p tsconfig.typecheck.json",
+    "pack:types": "npm run build:dts && npm pack"
+  }
+}
