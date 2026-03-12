@@ -1,0 +1,40 @@
+# Node dependencies
+node_modules/
+
+# Build outputs / caches
+dist/
+*.tsbuildinfo
+
+# Local probe outputs (machine-specific)
+data/runtime.jsonl
+data/model.jsonl
+data/getfile-probe.json
+data/builtin/
+
+# Temporary local folders/files
+.tmp_consume/
+tmp/
+temp/
+*.tmp
+
+# Packed artifacts
+*.tgz
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+
+# Editor / OS metadata
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
+
+# Optional large local docs snapshot
+document/fmod_documention/snapshot_2.02.33/
