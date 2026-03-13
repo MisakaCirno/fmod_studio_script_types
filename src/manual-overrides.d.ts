@@ -34,8 +34,37 @@ interface String {
     format(...args: any[]): string;
 }
 
-type StudioBinaryData = object;
+type FmodPlatformHardwareTypeValue = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11;
 
+declare const enum FmodPlatformHardwareType {
+    Desktop = 0,
+    Mobile = 1,
+    Xbox360 = 2,
+    XboxOne = 3,
+    PlayStation3 = 4,
+    PlayStation4 = 5,
+    PlayStationVita = 6,
+    WiiU = 7,
+    Switch = 8,
+    Custom = 9,
+    PlayStation5 = 10,
+    XboxSeriesXS = 11
+}
+
+type FmodSpeakerFormatValue = 1 | 5 | 7;
+
+declare const enum FmodSpeakerFormat {
+    Headphones = 1,
+    Surround51 = 5,
+    Surround71 = 7
+}
+
+type FmodPlatformObject = Omit<FmodEntityObject<"Platform">, "hardwareType" | "speakerFormat"> & {
+    hardwareType: FmodPlatformHardwareTypeValue;
+    speakerFormat: FmodSpeakerFormatValue;
+};
+
+type StudioBinaryData = object;
 interface StudioScriptFile {
     findChild(...args: any[]): any;
     findChildren(...args: any[]): any[];
