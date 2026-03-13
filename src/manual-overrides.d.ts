@@ -4,8 +4,12 @@
 */
 
 declare namespace FMODProjectExtensions {
-    /*
-    // Example: method override (later declarations take precedence in overload ordering)
+    interface FmodManagedObjectCore<TEntityName extends string, TEntityRuntimeName extends string = TEntityName> {
+        isOfType<TActual extends EntityName>(entityName: TActual): this is FmodEntityObject<TActual>;
+        isOfExactType<TActual extends EntityName>(entityName: TActual): this is FmodEntityObject<TActual>;
+    }
+
+    /*    // Example: method override (later declarations take precedence in overload ordering)
     interface EventExtensions {
         getPath(): string;
     }
