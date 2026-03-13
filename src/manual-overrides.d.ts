@@ -9,7 +9,8 @@ declare namespace FMODProjectExtensions {
         isOfExactType<TActual extends EntityName>(entityName: TActual): this is FmodEntityObject<TActual>;
     }
 
-    /*    // Example: method override (later declarations take precedence in overload ordering)
+    /*
+    // Example: method override (later declarations take precedence in overload ordering)
     interface EventExtensions {
         getPath(): string;
     }
@@ -94,7 +95,9 @@ type FmodEncodingSettingObject = Omit<FmodEntityObject<"EncodingSetting">, "enco
     loadingMode: FmodLoadingModeValue;
 };
 
-type StudioBinaryData = object;interface StudioScriptFile {
+type StudioBinaryData = object;
+
+interface StudioScriptFile {
     findChild(...args: any[]): any;
     findChildren(...args: any[]): any[];
     permissions(): number;
