@@ -64,8 +64,37 @@ type FmodPlatformObject = Omit<FmodEntityObject<"Platform">, "hardwareType" | "s
     speakerFormat: FmodSpeakerFormatValue;
 };
 
-type StudioBinaryData = object;
-interface StudioScriptFile {
+type FmodEncodingFormatValue = 0 | 1 | 3;
+
+declare const enum FmodEncodingFormat {
+    PCM = 0,
+    FADPCM = 1,
+    Vorbis = 3
+}
+
+type FmodSampleRateModeValue = 0 | 1 | 2;
+
+declare const enum FmodSampleRateMode {
+    Custom = 0,
+    OptimizedForSize = 1,
+    Preserved = 2
+}
+
+type FmodLoadingModeValue = 0 | 1 | 2;
+
+declare const enum FmodLoadingMode {
+    Compressed = 0,
+    Decompressed = 1,
+    Streaming = 2
+}
+
+type FmodEncodingSettingObject = Omit<FmodEntityObject<"EncodingSetting">, "encodingFormat" | "sampleRateMode" | "loadingMode"> & {
+    encodingFormat: FmodEncodingFormatValue;
+    sampleRateMode: FmodSampleRateModeValue;
+    loadingMode: FmodLoadingModeValue;
+};
+
+type StudioBinaryData = object;interface StudioScriptFile {
     findChild(...args: any[]): any;
     findChildren(...args: any[]): any[];
     permissions(): number;
