@@ -52,17 +52,21 @@ declare const enum FmodPlatformHardwareType {
     XboxSeriesXS = 11
 }
 
-type FmodSpeakerFormatValue = 1 | 5 | 7;
+type FmodSpeakerFormatValue = 1 | 5 | 6;
 
 declare const enum FmodSpeakerFormat {
     Headphones = 1,
     Surround51 = 5,
-    Surround71 = 7
+    Surround71 = 6
 }
 
-type FmodPlatformObject = Omit<FmodEntityObject<"Platform">, "hardwareType" | "speakerFormat"> & {
+type FmodPlatformObject = Omit<StudioProjectWorkspacePlatforms0, "hardwareType" | "speakerFormat"> & {
     hardwareType: FmodPlatformHardwareTypeValue;
     speakerFormat: FmodSpeakerFormatValue;
+};
+
+type FmodWorkspaceObject = Omit<StudioProjectWorkspace, "platforms"> & {
+    platforms: FmodPlatformObject[];
 };
 
 type FmodEncodingFormatValue = 0 | 1 | 3;
@@ -89,7 +93,7 @@ declare const enum FmodLoadingMode {
     Streaming = 2
 }
 
-type FmodEncodingSettingObject = Omit<FmodEntityObject<"EncodingSetting">, "encodingFormat" | "sampleRateMode" | "loadingMode"> & {
+type FmodEncodingSettingObject = Omit<StudioProjectWorkspacePlatforms0EncodingSettings, "encodingFormat" | "sampleRateMode" | "loadingMode"> & {
     encodingFormat: FmodEncodingFormatValue;
     sampleRateMode: FmodSampleRateModeValue;
     loadingMode: FmodLoadingModeValue;
