@@ -468,6 +468,9 @@ export function emitHostDts(ir: MergedIR): string {
             ? " extends " + iface.extendsName
             : "";
         lines.push("interface " + iface.name + extendsText + " {");
+        if (iface.indexSignature) {
+            lines.push("    [index: " + iface.indexSignature.indexType + "]: " + iface.indexSignature.valueTypeText + ";");
+        }
         if (modelEntityName && iface.extendsName === "StudioProjectEntity") {
             const literal = JSON.stringify(modelEntityName);
             lines.push("    findInstances(): Array<FmodEntityObject<" + literal + ">>;");

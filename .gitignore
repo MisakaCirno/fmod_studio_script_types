@@ -38,3 +38,6 @@ Thumbs.db
 
 # Optional large local docs snapshot
 document/fmod_documention/snapshot_2.02.33/
+
+# ignore AI context
+ai_context/

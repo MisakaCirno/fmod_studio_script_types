@@ -1153,6 +1153,7 @@ interface GlobalProbeConfig {
 
 /** @fmod-object-id 24745 @fmod-path "global.ProbeConfig.builtinFiles" */
 interface GlobalProbeConfigBuiltinFiles {
+    [index: number]: GlobalProbeConfigBuiltinFiles0 | GlobalProbeConfigBuiltinFiles1 | GlobalProbeConfigBuiltinFiles2;
     "0": GlobalProbeConfigBuiltinFiles0;
     "1": GlobalProbeConfigBuiltinFiles1;
     "2": GlobalProbeConfigBuiltinFiles2;
@@ -1179,6 +1180,7 @@ interface GlobalProbeConfigBuiltinFiles2 {
 
 /** @fmod-object-id 24743 @fmod-path "global.ProbeConfig.includeExtraGlobals" */
 interface GlobalProbeConfigIncludeExtraGlobals {
+    [index: number]: string;
     "0": string;
     "1": string;
     "2": string;
@@ -1192,6 +1194,7 @@ interface GlobalProbeConfigIncludeExtraGlobals {
 
 /** @fmod-object-id 24744 @fmod-path "global.ProbeConfig.knownHiddenLogicalNames" */
 interface GlobalProbeConfigKnownHiddenLogicalNames {
+    [index: number]: string;
     "0": string;
     "1": string;
     "2": string;
@@ -1201,6 +1204,7 @@ interface GlobalProbeConfigKnownHiddenLogicalNames {
 
 /** @fmod-object-id 24739 @fmod-path "global.ProbeConfig.roots" */
 interface GlobalProbeConfigRoots {
+    [index: number]: GlobalProbeConfigRoots0 | GlobalProbeConfigRoots1 | GlobalProbeConfigRoots2;
     "0": GlobalProbeConfigRoots0;
     "1": GlobalProbeConfigRoots1;
     "2": GlobalProbeConfigRoots2;
@@ -3066,6 +3070,7 @@ interface StudioProjectModelADSRModulatorRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 356 @fmod-path "studio.project.model.ADSRModulator.superEntities" */
 interface StudioProjectModelADSRModulatorSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -3214,6 +3219,7 @@ interface StudioProjectModelActionSheetRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 380 @fmod-path "studio.project.model.ActionSheet.superEntities" */
 interface StudioProjectModelActionSheetSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -3272,6 +3278,7 @@ interface StudioProjectModelAssetRelationshipsMasterAssetFolder {
 
 /** @fmod-object-id 396 @fmod-path "studio.project.model.Asset.superEntities" */
 interface StudioProjectModelAssetSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     length: number;
@@ -3391,6 +3398,7 @@ interface StudioProjectModelAudioFileRelationshipsSounds {
 
 /** @fmod-object-id 404 @fmod-path "studio.project.model.AudioFile.superEntities" */
 interface StudioProjectModelAudioFileSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     "2": string;
@@ -3450,6 +3458,7 @@ interface StudioProjectModelAudioSettingsRelationships {
 
 /** @fmod-object-id 420 @fmod-path "studio.project.model.AudioSettings.superEntities" */
 interface StudioProjectModelAudioSettingsSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -3553,6 +3562,7 @@ interface StudioProjectModelAudioTableRelationshipsProgrammerSounds {
 
 /** @fmod-object-id 428 @fmod-path "studio.project.model.AudioTable.superEntities" */
 interface StudioProjectModelAudioTableSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     "2": string;
@@ -3622,6 +3632,7 @@ interface StudioProjectModelAudioTrackRelationshipsSelector {
 
 /** @fmod-object-id 442 @fmod-path "studio.project.model.AudioTrack.superEntities" */
 interface StudioProjectModelAudioTrackSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -3697,6 +3708,7 @@ interface StudioProjectModelAutomatableObjectRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 451 @fmod-path "studio.project.model.AutomatableObject.superEntities" */
 interface StudioProjectModelAutomatableObjectSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -3750,6 +3762,7 @@ interface StudioProjectModelAutomationCurveRelationshipsParameter {
 
 /** @fmod-object-id 461 @fmod-path "studio.project.model.AutomationCurve.superEntities" */
 interface StudioProjectModelAutomationCurveSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -3839,6 +3852,7 @@ interface StudioProjectModelAutomationPointRelationshipsStartPointOwner {
 
 /** @fmod-object-id 468 @fmod-path "studio.project.model.AutomationPoint.superEntities" */
 interface StudioProjectModelAutomationPointSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -3899,6 +3913,7 @@ interface StudioProjectModelAutomationTrackRelationshipsSelector {
 
 /** @fmod-object-id 480 @fmod-path "studio.project.model.AutomationTrack.superEntities" */
 interface StudioProjectModelAutomationTrackSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -3959,6 +3974,7 @@ interface StudioProjectModelAutomatorRelationshipsObjectBeingAutomated {
 
 /** @fmod-object-id 488 @fmod-path "studio.project.model.Automator.superEntities" */
 interface StudioProjectModelAutomatorSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -4063,6 +4079,7 @@ interface StudioProjectModelAutopitchModulatorRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 496 @fmod-path "studio.project.model.AutopitchModulator.superEntities" */
 interface StudioProjectModelAutopitchModulatorSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -4144,6 +4161,7 @@ interface StudioProjectModelBankFolderRelationshipsItems {
 
 /** @fmod-object-id 522 @fmod-path "studio.project.model.BankFolder.superEntities" */
 interface StudioProjectModelBankFolderSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -4217,6 +4235,7 @@ interface StudioProjectModelBankRelationshipsFolder {
 
 /** @fmod-object-id 510 @fmod-path "studio.project.model.Bank.superEntities" */
 interface StudioProjectModelBankSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -4314,6 +4333,7 @@ interface StudioProjectModelBoolPluginParameterRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 531 @fmod-path "studio.project.model.BoolPluginParameter.superEntities" */
 interface StudioProjectModelBoolPluginParameterSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -4875,6 +4895,7 @@ interface StudioProjectModelChannelMixEffectRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 544 @fmod-path "studio.project.model.ChannelMixEffect.superEntities" */
 interface StudioProjectModelChannelMixEffectSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -5002,6 +5023,7 @@ interface StudioProjectModelChorusEffectRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 623 @fmod-path "studio.project.model.ChorusEffect.superEntities" */
 interface StudioProjectModelChorusEffectSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -5038,6 +5060,7 @@ interface StudioProjectModelColorableRelationships {
 
 /** @fmod-object-id 640 @fmod-path "studio.project.model.Colorable.superEntities" */
 interface StudioProjectModelColorableSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -5340,6 +5363,7 @@ interface StudioProjectModelCommandSoundRelationshipsTriggerConditions {
 
 /** @fmod-object-id 645 @fmod-path "studio.project.model.CommandSound.superEntities" */
 interface StudioProjectModelCommandSoundSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -5377,6 +5401,7 @@ interface StudioProjectModelCommandTargetRelationshipsCommandSounds {
 
 /** @fmod-object-id 686 @fmod-path "studio.project.model.CommandTarget.superEntities" */
 interface StudioProjectModelCommandTargetSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -5533,6 +5558,7 @@ interface StudioProjectModelCompressorEffectRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 691 @fmod-path "studio.project.model.CompressorEffect.superEntities" */
 interface StudioProjectModelCompressorEffectSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     length: number;
@@ -5594,6 +5620,7 @@ interface StudioProjectModelControlSurfaceCustomBindingRelationshipsOwner {
 
 /** @fmod-object-id 720 @fmod-path "studio.project.model.ControlSurfaceCustomBinding.superEntities" */
 interface StudioProjectModelControlSurfaceCustomBindingSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -5647,6 +5674,7 @@ interface StudioProjectModelControlSurfaceCustomBindingsRelationshipsWorkspace {
 
 /** @fmod-object-id 726 @fmod-path "studio.project.model.ControlSurfaceCustomBindings.superEntities" */
 interface StudioProjectModelControlSurfaceCustomBindingsSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -5702,6 +5730,7 @@ interface StudioProjectModelControlSurfaceProtocolRelationshipsControlSurface {
 
 /** @fmod-object-id 733 @fmod-path "studio.project.model.ControlSurfaceProtocol.superEntities" */
 interface StudioProjectModelControlSurfaceProtocolSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -5728,6 +5757,7 @@ interface StudioProjectModelControlSurfaceRelationshipsProtocols {
 
 /** @fmod-object-id 712 @fmod-path "studio.project.model.ControlSurface.superEntities" */
 interface StudioProjectModelControlSurfaceSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -5877,6 +5907,7 @@ interface StudioProjectModelConvolutionReverbEffectRelationshipsSnapshotProperti
 
 /** @fmod-object-id 738 @fmod-path "studio.project.model.ConvolutionReverbEffect.superEntities" */
 interface StudioProjectModelConvolutionReverbEffectSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     length: number;
@@ -6004,6 +6035,7 @@ interface StudioProjectModelDAWAssetRelationshipsSounds {
 
 /** @fmod-object-id 758 @fmod-path "studio.project.model.DAWAsset.superEntities" */
 interface StudioProjectModelDAWAssetSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -6092,6 +6124,7 @@ interface StudioProjectModelDAWProjectRelationshipsMasterAssetFolder {
 
 /** @fmod-object-id 775 @fmod-path "studio.project.model.DAWProject.superEntities" */
 interface StudioProjectModelDAWProjectSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -6158,6 +6191,7 @@ interface StudioProjectModelDataFileRelationshipsMasterAssetFolder {
 
 /** @fmod-object-id 787 @fmod-path "studio.project.model.DataFile.superEntities" */
 interface StudioProjectModelDataFileSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     length: number;
@@ -6271,6 +6305,7 @@ interface StudioProjectModelDataPluginParameterRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 796 @fmod-path "studio.project.model.DataPluginParameter.superEntities" */
 interface StudioProjectModelDataPluginParameterSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     length: number;
@@ -6309,6 +6344,7 @@ interface StudioProjectModelDataRefereeRelationshipsReferenceableData {
 
 /** @fmod-object-id 811 @fmod-path "studio.project.model.DataReferee.superEntities" */
 interface StudioProjectModelDataRefereeSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -6443,6 +6479,7 @@ interface StudioProjectModelDelayEffectRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 816 @fmod-path "studio.project.model.DelayEffect.superEntities" */
 interface StudioProjectModelDelayEffectSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -6556,6 +6593,7 @@ interface StudioProjectModelDistortionEffectRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 834 @fmod-path "studio.project.model.DistortionEffect.superEntities" */
 interface StudioProjectModelDistortionEffectSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -7021,6 +7059,7 @@ interface StudioProjectModelEditorSettingsRelationships {
 
 /** @fmod-object-id 849 @fmod-path "studio.project.model.EditorSettings.superEntities" */
 interface StudioProjectModelEditorSettingsSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -7135,6 +7174,7 @@ interface StudioProjectModelEffectChainRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 914 @fmod-path "studio.project.model.EffectChain.superEntities" */
 interface StudioProjectModelEffectChainSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -7216,6 +7256,7 @@ interface StudioProjectModelEffectPresetFolderRelationshipsItems {
 
 /** @fmod-object-id 939 @fmod-path "studio.project.model.EffectPresetFolder.superEntities" */
 interface StudioProjectModelEffectPresetFolderSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -7275,6 +7316,7 @@ interface StudioProjectModelEffectPresetRelationshipsProxies {
 
 /** @fmod-object-id 929 @fmod-path "studio.project.model.EffectPreset.superEntities" */
 interface StudioProjectModelEffectPresetSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -7356,6 +7398,7 @@ interface StudioProjectModelEncodableAssetRelationshipsMasterAssetFolder {
 
 /** @fmod-object-id 953 @fmod-path "studio.project.model.EncodableAsset.superEntities" */
 interface StudioProjectModelEncodableAssetSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     length: number;
@@ -7379,6 +7422,7 @@ interface StudioProjectModelEncodableRelationshipsEncodingSettings {
 
 /** @fmod-object-id 948 @fmod-path "studio.project.model.Encodable.superEntities" */
 interface StudioProjectModelEncodableSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -7459,6 +7503,7 @@ interface StudioProjectModelEncodingSettingRelationshipsPlatform {
 
 /** @fmod-object-id 962 @fmod-path "studio.project.model.EncodingSetting.superEntities" */
 interface StudioProjectModelEncodingSettingSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -7641,6 +7686,7 @@ interface StudioProjectModelEventAutomatablePropertiesRelationshipsSnapshotPrope
 
 /** @fmod-object-id 1007 @fmod-path "studio.project.model.EventAutomatableProperties.superEntities" */
 interface StudioProjectModelEventAutomatablePropertiesSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -7731,6 +7777,7 @@ interface StudioProjectModelEventConditionRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 1030 @fmod-path "studio.project.model.EventCondition.superEntities" */
 interface StudioProjectModelEventConditionSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -7797,6 +7844,7 @@ interface StudioProjectModelEventFolderRelationshipsItems {
 
 /** @fmod-object-id 1042 @fmod-path "studio.project.model.EventFolder.superEntities" */
 interface StudioProjectModelEventFolderSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -8031,6 +8079,7 @@ interface StudioProjectModelEventMixerGroupRelationshipsUiMixerView {
 
 /** @fmod-object-id 1063 @fmod-path "studio.project.model.EventMixerGroup.superEntities" */
 interface StudioProjectModelEventMixerGroupSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     length: number;
@@ -8259,6 +8308,7 @@ interface StudioProjectModelEventMixerMasterRelationshipsUiMixerView {
 
 /** @fmod-object-id 1092 @fmod-path "studio.project.model.EventMixerMaster.superEntities" */
 interface StudioProjectModelEventMixerMasterSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     length: number;
@@ -8530,6 +8580,7 @@ interface StudioProjectModelEventMixerReturnRelationshipsUiMixerView {
 
 /** @fmod-object-id 1122 @fmod-path "studio.project.model.EventMixerReturn.superEntities" */
 interface StudioProjectModelEventMixerReturnSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     length: number;
@@ -8537,6 +8588,7 @@ interface StudioProjectModelEventMixerReturnSuperEntities {
 
 /** @fmod-object-id 1051 @fmod-path "studio.project.model.EventMixer.superEntities" */
 interface StudioProjectModelEventMixerSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -9074,12 +9126,14 @@ interface StudioProjectModelEventSoundRelationshipsTriggerConditions {
 
 /** @fmod-object-id 1148 @fmod-path "studio.project.model.EventSound.superEntities" */
 interface StudioProjectModelEventSoundSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
 
 /** @fmod-object-id 973 @fmod-path "studio.project.model.Event.superEntities" */
 interface StudioProjectModelEventSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     "2": string;
@@ -9154,6 +9208,7 @@ interface StudioProjectModelFadeCurveRelationshipsStartPoint {
 
 /** @fmod-object-id 1188 @fmod-path "studio.project.model.FadeCurve.superEntities" */
 interface StudioProjectModelFadeCurveSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -9281,6 +9336,7 @@ interface StudioProjectModelFlangerEffectRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 1197 @fmod-path "studio.project.model.FlangerEffect.superEntities" */
 interface StudioProjectModelFlangerEffectSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -9385,6 +9441,7 @@ interface StudioProjectModelFloatPluginParameterRelationshipsSnapshotProperties 
 
 /** @fmod-object-id 1214 @fmod-path "studio.project.model.FloatPluginParameter.superEntities" */
 interface StudioProjectModelFloatPluginParameterSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -9451,6 +9508,7 @@ interface StudioProjectModelFolderRelationshipsItems {
 
 /** @fmod-object-id 1228 @fmod-path "studio.project.model.Folder.superEntities" */
 interface StudioProjectModelFolderSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -9564,6 +9622,7 @@ interface StudioProjectModelGainEffectRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 1237 @fmod-path "studio.project.model.GainEffect.superEntities" */
 interface StudioProjectModelGainEffectSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -9801,6 +9860,7 @@ interface StudioProjectModelGameParameterRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 1252 @fmod-path "studio.project.model.GameParameter.superEntities" */
 interface StudioProjectModelGameParameterSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     "2": string;
@@ -9903,6 +9963,7 @@ interface StudioProjectModelGroupTrackRelationshipsSelector {
 
 /** @fmod-object-id 1284 @fmod-path "studio.project.model.GroupTrack.superEntities" */
 interface StudioProjectModelGroupTrackSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     length: number;
@@ -10024,6 +10085,7 @@ interface StudioProjectModelHighpassEffectRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 1297 @fmod-path "studio.project.model.HighpassEffect.superEntities" */
 interface StudioProjectModelHighpassEffectSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -10137,6 +10199,7 @@ interface StudioProjectModelHighpassSimpleEffectRelationshipsSnapshotProperties 
 
 /** @fmod-object-id 1313 @fmod-path "studio.project.model.HighpassSimpleEffect.superEntities" */
 interface StudioProjectModelHighpassSimpleEffectSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -10278,6 +10341,7 @@ interface StudioProjectModelITEchoEffectRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 1328 @fmod-path "studio.project.model.ITEchoEffect.superEntities" */
 interface StudioProjectModelITEchoEffectSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -10389,6 +10453,7 @@ interface StudioProjectModelIntPluginParameterRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 1347 @fmod-path "studio.project.model.IntPluginParameter.superEntities" */
 interface StudioProjectModelIntPluginParameterSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -10528,6 +10593,7 @@ interface StudioProjectModelLFOModulatorRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 1362 @fmod-path "studio.project.model.LFOModulator.superEntities" */
 interface StudioProjectModelLFOModulatorSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -10662,6 +10728,7 @@ interface StudioProjectModelLimiterEffectRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 1381 @fmod-path "studio.project.model.LimiterEffect.superEntities" */
 interface StudioProjectModelLimiterEffectSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -10721,6 +10788,7 @@ interface StudioProjectModelLocaleRelationshipsWorkspace {
 
 /** @fmod-object-id 1399 @fmod-path "studio.project.model.Locale.superEntities" */
 interface StudioProjectModelLocaleSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -10922,6 +10990,7 @@ interface StudioProjectModelLoopRegionRelationshipsTriggerConditions {
 
 /** @fmod-object-id 1407 @fmod-path "studio.project.model.LoopRegion.superEntities" */
 interface StudioProjectModelLoopRegionSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     "2": string;
@@ -10969,6 +11038,7 @@ interface StudioProjectModelLoopableRelationships {
 
 /** @fmod-object-id 1434 @fmod-path "studio.project.model.Loopable.superEntities" */
 interface StudioProjectModelLoopableSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -11103,6 +11173,7 @@ interface StudioProjectModelLoudnessMeterRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 1440 @fmod-path "studio.project.model.LoudnessMeter.superEntities" */
 interface StudioProjectModelLoudnessMeterSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -11223,6 +11294,7 @@ interface StudioProjectModelLowpassEffectRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 1458 @fmod-path "studio.project.model.LowpassEffect.superEntities" */
 interface StudioProjectModelLowpassEffectSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -11336,6 +11408,7 @@ interface StudioProjectModelLowpassSimpleEffectRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 1474 @fmod-path "studio.project.model.LowpassSimpleEffect.superEntities" */
 interface StudioProjectModelLowpassSimpleEffectSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -11395,6 +11468,7 @@ interface StudioProjectModelMackieControlSurfaceRelationshipsProtocols {
 
 /** @fmod-object-id 1489 @fmod-path "studio.project.model.MackieControlSurface.superEntities" */
 interface StudioProjectModelMackieControlSurfaceSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -11454,6 +11528,7 @@ interface StudioProjectModelMackieExtendedControlSurfaceRelationshipsProtocols {
 
 /** @fmod-object-id 1497 @fmod-path "studio.project.model.MackieExtendedControlSurface.superEntities" */
 interface StudioProjectModelMackieExtendedControlSurfaceSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -11588,6 +11663,7 @@ interface StudioProjectModelMarkerRelationshipsTimeline {
 
 /** @fmod-object-id 1509 @fmod-path "studio.project.model.Marker.superEntities" */
 interface StudioProjectModelMarkerSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     length: number;
@@ -11649,6 +11725,7 @@ interface StudioProjectModelMarkerTrackRelationshipsSelector {
 
 /** @fmod-object-id 1523 @fmod-path "studio.project.model.MarkerTrack.superEntities" */
 interface StudioProjectModelMarkerTrackSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -11752,6 +11829,7 @@ interface StudioProjectModelMasterAssetFolderRelationshipsWorkspace {
 
 /** @fmod-object-id 1531 @fmod-path "studio.project.model.MasterAssetFolder.superEntities" */
 interface StudioProjectModelMasterAssetFolderSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -11826,6 +11904,7 @@ interface StudioProjectModelMasterBankFolderRelationshipsWorkspace {
 
 /** @fmod-object-id 1545 @fmod-path "studio.project.model.MasterBankFolder.superEntities" */
 interface StudioProjectModelMasterBankFolderSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -11900,6 +11979,7 @@ interface StudioProjectModelMasterEffectPresetFolderRelationshipsWorkspace {
 
 /** @fmod-object-id 1555 @fmod-path "studio.project.model.MasterEffectPresetFolder.superEntities" */
 interface StudioProjectModelMasterEffectPresetFolderSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -11974,6 +12054,7 @@ interface StudioProjectModelMasterEventFolderRelationshipsWorkspace {
 
 /** @fmod-object-id 1565 @fmod-path "studio.project.model.MasterEventFolder.superEntities" */
 interface StudioProjectModelMasterEventFolderSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -12048,6 +12129,7 @@ interface StudioProjectModelMasterParameterPresetFolderRelationshipsWorkspace {
 
 /** @fmod-object-id 1575 @fmod-path "studio.project.model.MasterParameterPresetFolder.superEntities" */
 interface StudioProjectModelMasterParameterPresetFolderSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -12122,6 +12204,7 @@ interface StudioProjectModelMasterSandboxFolderRelationshipsWorkspace {
 
 /** @fmod-object-id 1585 @fmod-path "studio.project.model.MasterSandboxFolder.superEntities" */
 interface StudioProjectModelMasterSandboxFolderSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -12196,6 +12279,7 @@ interface StudioProjectModelMasterTagFolderRelationshipsWorkspace {
 
 /** @fmod-object-id 1595 @fmod-path "studio.project.model.MasterTagFolder.superEntities" */
 interface StudioProjectModelMasterTagFolderSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -12294,6 +12378,7 @@ interface StudioProjectModelMasterTrackRelationshipsSelector {
 
 /** @fmod-object-id 1605 @fmod-path "studio.project.model.MasterTrack.superEntities" */
 interface StudioProjectModelMasterTrackSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -12330,6 +12415,7 @@ interface StudioProjectModelMeteringSettingsRelationships {
 
 /** @fmod-object-id 1618 @fmod-path "studio.project.model.MeteringSettings.superEntities" */
 interface StudioProjectModelMeteringSettingsSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -12395,6 +12481,7 @@ interface StudioProjectModelMidiControlSurfaceProtocolRelationshipsControlSurfac
 
 /** @fmod-object-id 1623 @fmod-path "studio.project.model.MidiControlSurfaceProtocol.superEntities" */
 interface StudioProjectModelMidiControlSurfaceProtocolSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -12547,6 +12634,7 @@ interface StudioProjectModelMixerBusEffectChainRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 1665 @fmod-path "studio.project.model.MixerBusEffectChain.superEntities" */
 interface StudioProjectModelMixerBusEffectChainSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -12653,6 +12741,7 @@ interface StudioProjectModelMixerBusFaderRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 1681 @fmod-path "studio.project.model.MixerBusFader.superEntities" */
 interface StudioProjectModelMixerBusFaderSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -12858,6 +12947,7 @@ interface StudioProjectModelMixerBusPannerRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 1695 @fmod-path "studio.project.model.MixerBusPanner.superEntities" */
 interface StudioProjectModelMixerBusPannerSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -13010,6 +13100,7 @@ interface StudioProjectModelMixerBusRelationshipsUiMixerView {
 
 /** @fmod-object-id 1643 @fmod-path "studio.project.model.MixerBus.superEntities" */
 interface StudioProjectModelMixerBusSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -13116,6 +13207,7 @@ interface StudioProjectModelMixerEffectRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 1723 @fmod-path "studio.project.model.MixerEffect.superEntities" */
 interface StudioProjectModelMixerEffectSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     length: number;
@@ -13320,6 +13412,7 @@ interface StudioProjectModelMixerGroupRelationshipsUiMixerView {
 
 /** @fmod-object-id 1737 @fmod-path "studio.project.model.MixerGroup.superEntities" */
 interface StudioProjectModelMixerGroupSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -13495,6 +13588,7 @@ interface StudioProjectModelMixerInputRelationshipsUiMixerView {
 
 /** @fmod-object-id 1764 @fmod-path "studio.project.model.MixerInput.superEntities" */
 interface StudioProjectModelMixerInputSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -13706,6 +13800,7 @@ interface StudioProjectModelMixerMasterRelationshipsUiMixerView {
 
 /** @fmod-object-id 1787 @fmod-path "studio.project.model.MixerMaster.superEntities" */
 interface StudioProjectModelMixerMasterSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -13924,6 +14019,7 @@ interface StudioProjectModelMixerPortRelationshipsUiMixerView {
 
 /** @fmod-object-id 1815 @fmod-path "studio.project.model.MixerPort.superEntities" */
 interface StudioProjectModelMixerPortSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -14170,6 +14266,7 @@ interface StudioProjectModelMixerReturnRelationshipsUiMixerView {
 
 /** @fmod-object-id 1844 @fmod-path "studio.project.model.MixerReturn.superEntities" */
 interface StudioProjectModelMixerReturnSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -14298,6 +14395,7 @@ interface StudioProjectModelMixerSendRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 1868 @fmod-path "studio.project.model.MixerSend.superEntities" */
 interface StudioProjectModelMixerSendSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -14434,6 +14532,7 @@ interface StudioProjectModelMixerStripRelationshipsUiMixerView {
 
 /** @fmod-object-id 1885 @fmod-path "studio.project.model.MixerStrip.superEntities" */
 interface StudioProjectModelMixerStripSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     "2": string;
@@ -14444,6 +14543,7 @@ interface StudioProjectModelMixerStripSuperEntities {
 
 /** @fmod-object-id 1632 @fmod-path "studio.project.model.Mixer.superEntities" */
 interface StudioProjectModelMixerSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -14603,6 +14703,7 @@ interface StudioProjectModelMixerVCARelationshipsUiMixerView {
 
 /** @fmod-object-id 1903 @fmod-path "studio.project.model.MixerVCA.superEntities" */
 interface StudioProjectModelMixerVCASuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -14693,6 +14794,7 @@ interface StudioProjectModelModulatorRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 1924 @fmod-path "studio.project.model.Modulator.superEntities" */
 interface StudioProjectModelModulatorSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -14943,6 +15045,7 @@ interface StudioProjectModelModuleRelationshipsTriggerConditions {
 
 /** @fmod-object-id 1936 @fmod-path "studio.project.model.Module.superEntities" */
 interface StudioProjectModelModuleSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     "2": string;
@@ -15286,6 +15389,7 @@ interface StudioProjectModelMultiSoundRelationshipsTriggerConditions {
 
 /** @fmod-object-id 1970 @fmod-path "studio.project.model.MultiSound.superEntities" */
 interface StudioProjectModelMultiSoundSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     "2": string;
@@ -15534,6 +15638,7 @@ interface StudioProjectModelMultibandEqEffectRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 2016 @fmod-path "studio.project.model.MultibandEqEffect.superEntities" */
 interface StudioProjectModelMultibandEqEffectSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -15655,6 +15760,7 @@ interface StudioProjectModelNamedMarkerRelationshipsTimeline {
 
 /** @fmod-object-id 2050 @fmod-path "studio.project.model.NamedMarker.superEntities" */
 interface StudioProjectModelNamedMarkerSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     length: number;
@@ -15714,6 +15820,7 @@ interface StudioProjectModelNamedWorkspaceBasedSourceControlProviderRelationship
 
 /** @fmod-object-id 2066 @fmod-path "studio.project.model.NamedWorkspaceBasedSourceControlProvider.superEntities" */
 interface StudioProjectModelNamedWorkspaceBasedSourceControlProviderSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -15750,6 +15857,7 @@ interface StudioProjectModelNotableRelationships {
 
 /** @fmod-object-id 2074 @fmod-path "studio.project.model.Notable.superEntities" */
 interface StudioProjectModelNotableSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -15919,6 +16027,7 @@ interface StudioProjectModelObjectSpatialiserEffectRelationshipsSnapshotProperti
 
 /** @fmod-object-id 2079 @fmod-path "studio.project.model.ObjectSpatialiserEffect.superEntities" */
 interface StudioProjectModelObjectSpatialiserEffectSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -16005,6 +16114,7 @@ interface StudioProjectModelOscControlSurfaceProtocolRelationshipsControlSurface
 
 /** @fmod-object-id 2106 @fmod-path "studio.project.model.OscControlSurfaceProtocol.superEntities" */
 interface StudioProjectModelOscControlSurfaceProtocolSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -16202,6 +16312,7 @@ interface StudioProjectModelPannerEffectRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 2114 @fmod-path "studio.project.model.PannerEffect.superEntities" */
 interface StudioProjectModelPannerEffectSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -16329,6 +16440,7 @@ interface StudioProjectModelParamEqEffectRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 2141 @fmod-path "studio.project.model.ParamEqEffect.superEntities" */
 interface StudioProjectModelParamEqEffectSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -16456,6 +16568,7 @@ interface StudioProjectModelParameterConditionRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 2173 @fmod-path "studio.project.model.ParameterCondition.superEntities" */
 interface StudioProjectModelParameterConditionSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -16537,6 +16650,7 @@ interface StudioProjectModelParameterPresetFolderRelationshipsItems {
 
 /** @fmod-object-id 2197 @fmod-path "studio.project.model.ParameterPresetFolder.superEntities" */
 interface StudioProjectModelParameterPresetFolderSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -16588,6 +16702,7 @@ interface StudioProjectModelParameterPresetRelationshipsParameter {
 
 /** @fmod-object-id 2188 @fmod-path "studio.project.model.ParameterPreset.superEntities" */
 interface StudioProjectModelParameterPresetSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -16718,6 +16833,7 @@ interface StudioProjectModelParameterPropertyRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 2206 @fmod-path "studio.project.model.ParameterProperty.superEntities" */
 interface StudioProjectModelParameterPropertySuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -16755,6 +16871,7 @@ interface StudioProjectModelParameterPrototypeRelationshipsAutomationCurves {
 
 /** @fmod-object-id 2219 @fmod-path "studio.project.model.ParameterPrototype.superEntities" */
 interface StudioProjectModelParameterPrototypeSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -16892,6 +17009,7 @@ interface StudioProjectModelParameterProxyRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 2224 @fmod-path "studio.project.model.ParameterProxy.superEntities" */
 interface StudioProjectModelParameterProxySuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     length: number;
@@ -16959,6 +17077,7 @@ interface StudioProjectModelParameterRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 2158 @fmod-path "studio.project.model.Parameter.superEntities" */
 interface StudioProjectModelParameterSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -17059,6 +17178,7 @@ interface StudioProjectModelPerforceProviderRelationshipsWorkspace {
 
 /** @fmod-object-id 2242 @fmod-path "studio.project.model.PerforceProvider.superEntities" */
 interface StudioProjectModelPerforceProviderSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -17193,6 +17313,7 @@ interface StudioProjectModelPitchShifterEffectRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 2256 @fmod-path "studio.project.model.PitchShifterEffect.superEntities" */
 interface StudioProjectModelPitchShifterEffectSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -17328,12 +17449,14 @@ interface StudioProjectModelPlatformSpecificItemRelationshipsExcludedPlatforms {
 
 /** @fmod-object-id 2288 @fmod-path "studio.project.model.PlatformSpecificItem.superEntities" */
 interface StudioProjectModelPlatformSpecificItemSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
 
 /** @fmod-object-id 2274 @fmod-path "studio.project.model.Platform.superEntities" */
 interface StudioProjectModelPlatformSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -17386,6 +17509,7 @@ interface StudioProjectModelPlayPercentageRelationshipsSound {
 
 /** @fmod-object-id 2293 @fmod-path "studio.project.model.PlayPercentage.superEntities" */
 interface StudioProjectModelPlayPercentageSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -17523,6 +17647,7 @@ interface StudioProjectModelPluginEffectRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 2307 @fmod-path "studio.project.model.PluginEffect.superEntities" */
 interface StudioProjectModelPluginEffectSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     "2": string;
@@ -17562,6 +17687,7 @@ interface StudioProjectModelPluginOwnerRelationshipsPlugin {
 
 /** @fmod-object-id 2323 @fmod-path "studio.project.model.PluginOwner.superEntities" */
 interface StudioProjectModelPluginOwnerSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -17659,6 +17785,7 @@ interface StudioProjectModelPluginParameterRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 2328 @fmod-path "studio.project.model.PluginParameter.superEntities" */
 interface StudioProjectModelPluginParameterSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -17726,6 +17853,7 @@ interface StudioProjectModelPluginSettingsRelationships {
 
 /** @fmod-object-id 2341 @fmod-path "studio.project.model.PluginSettings.superEntities" */
 interface StudioProjectModelPluginSettingsSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -18014,6 +18142,7 @@ interface StudioProjectModelPluginSoundRelationshipsTriggerConditions {
 
 /** @fmod-object-id 2346 @fmod-path "studio.project.model.PluginSound.superEntities" */
 interface StudioProjectModelPluginSoundSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     length: number;
@@ -18021,6 +18150,7 @@ interface StudioProjectModelPluginSoundSuperEntities {
 
 /** @fmod-object-id 2300 @fmod-path "studio.project.model.Plugin.superEntities" */
 interface StudioProjectModelPluginSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -18087,6 +18217,7 @@ interface StudioProjectModelProfilerFolderRelationshipsItems {
 
 /** @fmod-object-id 2385 @fmod-path "studio.project.model.ProfilerFolder.superEntities" */
 interface StudioProjectModelProfilerFolderSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -18169,6 +18300,7 @@ interface StudioProjectModelProfilerGraphRelationshipsSelector {
 
 /** @fmod-object-id 2394 @fmod-path "studio.project.model.ProfilerGraph.superEntities" */
 interface StudioProjectModelProfilerGraphSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -18206,6 +18338,7 @@ interface StudioProjectModelProfilerGraphableRelationshipsProfilerGraphs {
 
 /** @fmod-object-id 2405 @fmod-path "studio.project.model.ProfilerGraphable.superEntities" */
 interface StudioProjectModelProfilerGraphableSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -18327,6 +18460,7 @@ interface StudioProjectModelProfilerRecordingMarkerRelationshipsTimeline {
 
 /** @fmod-object-id 2410 @fmod-path "studio.project.model.ProfilerRecordingMarker.superEntities" */
 interface StudioProjectModelProfilerRecordingMarkerSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -18416,6 +18550,7 @@ interface StudioProjectModelProfilerSessionFolderRelationshipsWorkspace {
 
 /** @fmod-object-id 2462 @fmod-path "studio.project.model.ProfilerSessionFolder.superEntities" */
 interface StudioProjectModelProfilerSessionFolderSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -18679,6 +18814,7 @@ interface StudioProjectModelProfilerSessionRelationshipsUserProperties {
 
 /** @fmod-object-id 2426 @fmod-path "studio.project.model.ProfilerSession.superEntities" */
 interface StudioProjectModelProfilerSessionSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -18762,6 +18898,7 @@ interface StudioProjectModelProfilerSystemTrackRelationshipsSelector {
 
 /** @fmod-object-id 2472 @fmod-path "studio.project.model.ProfilerSystemTrack.superEntities" */
 interface StudioProjectModelProfilerSystemTrackSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -18845,6 +18982,7 @@ interface StudioProjectModelProfilerTrackRelationshipsSelector {
 
 /** @fmod-object-id 2483 @fmod-path "studio.project.model.ProfilerTrack.superEntities" */
 interface StudioProjectModelProfilerTrackSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -18882,6 +19020,7 @@ interface StudioProjectModelProfilerTrackableRelationshipsProfilerTrackers {
 
 /** @fmod-object-id 2494 @fmod-path "studio.project.model.ProfilerTrackable.superEntities" */
 interface StudioProjectModelProfilerTrackableSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -18934,6 +19073,7 @@ interface StudioProjectModelProgrammerSoundPlaceholderRelationshipsProgrammerSou
 
 /** @fmod-object-id 2541 @fmod-path "studio.project.model.ProgrammerSoundPlaceholder.superEntities" */
 interface StudioProjectModelProgrammerSoundPlaceholderSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -19228,6 +19368,7 @@ interface StudioProjectModelProgrammerSoundRelationshipsTriggerConditions {
 
 /** @fmod-object-id 2499 @fmod-path "studio.project.model.ProgrammerSound.superEntities" */
 interface StudioProjectModelProgrammerSoundSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     length: number;
@@ -19296,6 +19437,7 @@ interface StudioProjectModelProjectSettingsRelationshipsWorkspace {
 
 /** @fmod-object-id 2546 @fmod-path "studio.project.model.ProjectSettings.superEntities" */
 interface StudioProjectModelProjectSettingsSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -19417,6 +19559,7 @@ interface StudioProjectModelProxyEffectRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 2555 @fmod-path "studio.project.model.ProxyEffect.superEntities" */
 interface StudioProjectModelProxyEffectSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -19460,6 +19603,7 @@ interface StudioProjectModelQuantizableRelationships {
 
 /** @fmod-object-id 2571 @fmod-path "studio.project.model.Quantizable.superEntities" */
 interface StudioProjectModelQuantizableSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -19557,6 +19701,7 @@ interface StudioProjectModelRandomizerModulatorRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 2577 @fmod-path "studio.project.model.RandomizerModulator.superEntities" */
 interface StudioProjectModelRandomizerModulatorSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -19594,6 +19739,7 @@ interface StudioProjectModelReferenceableDataRelationshipsDataReferees {
 
 /** @fmod-object-id 2590 @fmod-path "studio.project.model.ReferenceableData.superEntities" */
 interface StudioProjectModelReferenceableDataSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -19707,6 +19853,7 @@ interface StudioProjectModelRegionRelationshipsTimeline {
 
 /** @fmod-object-id 2595 @fmod-path "studio.project.model.Region.superEntities" */
 interface StudioProjectModelRegionSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -19798,6 +19945,7 @@ interface StudioProjectModelReturnTrackRelationshipsSelector {
 
 /** @fmod-object-id 2610 @fmod-path "studio.project.model.ReturnTrack.superEntities" */
 interface StudioProjectModelReturnTrackSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     length: number;
@@ -19996,6 +20144,7 @@ interface StudioProjectModelSFXReverbEffectRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 2622 @fmod-path "studio.project.model.SFXReverbEffect.superEntities" */
 interface StudioProjectModelSFXReverbEffectSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -20085,6 +20234,7 @@ interface StudioProjectModelSandboxEmitterRelationshipsSelector {
 
 /** @fmod-object-id 2649 @fmod-path "studio.project.model.SandboxEmitter.superEntities" */
 interface StudioProjectModelSandboxEmitterSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     length: number;
@@ -20152,6 +20302,7 @@ interface StudioProjectModelSandboxFolderRelationshipsItems {
 
 /** @fmod-object-id 2661 @fmod-path "studio.project.model.SandboxFolder.superEntities" */
 interface StudioProjectModelSandboxFolderSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -20218,6 +20369,7 @@ interface StudioProjectModelSandboxListenerRelationshipsSelector {
 
 /** @fmod-object-id 2670 @fmod-path "studio.project.model.SandboxListener.superEntities" */
 interface StudioProjectModelSandboxListenerSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -20270,6 +20422,7 @@ interface StudioProjectModelSandboxParameterOwnerRelationshipsSandboxParameters 
 
 /** @fmod-object-id 2686 @fmod-path "studio.project.model.SandboxParameterOwner.superEntities" */
 interface StudioProjectModelSandboxParameterOwnerSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -20307,6 +20460,7 @@ interface StudioProjectModelSandboxParameterRelationshipsParameterOwner {
 
 /** @fmod-object-id 2679 @fmod-path "studio.project.model.SandboxParameter.superEntities" */
 interface StudioProjectModelSandboxParameterSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -20365,6 +20519,7 @@ interface StudioProjectModelSandboxPositionableRelationshipsSelector {
 
 /** @fmod-object-id 2691 @fmod-path "studio.project.model.SandboxPositionable.superEntities" */
 interface StudioProjectModelSandboxPositionableSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -20672,6 +20827,7 @@ interface StudioProjectModelSandboxSceneRelationshipsUserProperties {
 
 /** @fmod-object-id 2699 @fmod-path "studio.project.model.SandboxScene.superEntities" */
 interface StudioProjectModelSandboxSceneSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     length: number;
@@ -20724,6 +20880,7 @@ interface StudioProjectModelScriptBasedProviderRelationshipsWorkspace {
 
 /** @fmod-object-id 2739 @fmod-path "studio.project.model.ScriptBasedProvider.superEntities" */
 interface StudioProjectModelScriptBasedProviderSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -20761,6 +20918,7 @@ interface StudioProjectModelSelectableRelationshipsSelector {
 
 /** @fmod-object-id 2746 @fmod-path "studio.project.model.Selectable.superEntities" */
 interface StudioProjectModelSelectableSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -20798,6 +20956,7 @@ interface StudioProjectModelSelectorRelationshipsSelectables {
 
 /** @fmod-object-id 2751 @fmod-path "studio.project.model.Selector.superEntities" */
 interface StudioProjectModelSelectorSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -20953,6 +21112,7 @@ interface StudioProjectModelSidechainModulatorRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 2772 @fmod-path "studio.project.model.SidechainModulator.superEntities" */
 interface StudioProjectModelSidechainModulatorSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     length: number;
@@ -21060,6 +21220,7 @@ interface StudioProjectModelSidechainRelationshipsTargets {
 
 /** @fmod-object-id 2756 @fmod-path "studio.project.model.Sidechain.superEntities" */
 interface StudioProjectModelSidechainSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -21097,6 +21258,7 @@ interface StudioProjectModelSidechainTargetRelationshipsSidechains {
 
 /** @fmod-object-id 2791 @fmod-path "studio.project.model.SidechainTarget.superEntities" */
 interface StudioProjectModelSidechainTargetSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -21398,6 +21560,7 @@ interface StudioProjectModelSilenceSoundRelationshipsTriggerConditions {
 
 /** @fmod-object-id 2796 @fmod-path "studio.project.model.SilenceSound.superEntities" */
 interface StudioProjectModelSilenceSoundSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     length: number;
@@ -21701,6 +21864,7 @@ interface StudioProjectModelSingleSoundRelationshipsTriggerConditions {
 
 /** @fmod-object-id 2837 @fmod-path "studio.project.model.SingleSound.superEntities" */
 interface StudioProjectModelSingleSoundSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     length: number;
@@ -21783,6 +21947,7 @@ interface StudioProjectModelSnapshotGroupRelationshipsItems {
 
 /** @fmod-object-id 2916 @fmod-path "studio.project.model.SnapshotGroup.superEntities" */
 interface StudioProjectModelSnapshotGroupSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -21857,6 +22022,7 @@ interface StudioProjectModelSnapshotListRelationshipsMixer {
 
 /** @fmod-object-id 2925 @fmod-path "studio.project.model.SnapshotList.superEntities" */
 interface StudioProjectModelSnapshotListSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -21939,6 +22105,7 @@ interface StudioProjectModelSnapshotMasterTrackRelationshipsSnapshot {
 
 /** @fmod-object-id 2935 @fmod-path "studio.project.model.SnapshotMasterTrack.superEntities" */
 interface StudioProjectModelSnapshotMasterTrackSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     length: number;
@@ -22243,6 +22410,7 @@ interface StudioProjectModelSnapshotModuleRelationshipsTriggerConditions {
 
 /** @fmod-object-id 2946 @fmod-path "studio.project.model.SnapshotModule.superEntities" */
 interface StudioProjectModelSnapshotModuleSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -22408,6 +22576,7 @@ interface StudioProjectModelSnapshotPropertyRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 2987 @fmod-path "studio.project.model.SnapshotProperty.superEntities" */
 interface StudioProjectModelSnapshotPropertySuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -22626,6 +22795,7 @@ interface StudioProjectModelSnapshotRelationshipsUserProperties {
 
 /** @fmod-object-id 2878 @fmod-path "studio.project.model.Snapshot.superEntities" */
 interface StudioProjectModelSnapshotSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -22709,6 +22879,7 @@ interface StudioProjectModelSnapshotTrackRelationshipsSnapshot {
 
 /** @fmod-object-id 3001 @fmod-path "studio.project.model.SnapshotTrack.superEntities" */
 interface StudioProjectModelSnapshotTrackSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -23355,12 +23526,14 @@ interface StudioProjectModelSoundScattererRelationshipsTriggerConditions {
 
 /** @fmod-object-id 3050 @fmod-path "studio.project.model.SoundScatterer.superEntities" */
 interface StudioProjectModelSoundScattererSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
 
 /** @fmod-object-id 3012 @fmod-path "studio.project.model.Sound.superEntities" */
 interface StudioProjectModelSoundSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -23398,6 +23571,7 @@ interface StudioProjectModelSourceControlProviderRelationshipsWorkspace {
 
 /** @fmod-object-id 3101 @fmod-path "studio.project.model.SourceControlProvider.superEntities" */
 interface StudioProjectModelSourceControlProviderSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -23567,6 +23741,7 @@ interface StudioProjectModelSpatialEffectRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 3106 @fmod-path "studio.project.model.SpatialEffect.superEntities" */
 interface StudioProjectModelSpatialEffectSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -23806,6 +23981,7 @@ interface StudioProjectModelSpatialiserEffectRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 3129 @fmod-path "studio.project.model.SpatialiserEffect.superEntities" */
 interface StudioProjectModelSpatialiserEffectSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -23865,6 +24041,7 @@ interface StudioProjectModelSslNucleusControlSurfaceRelationshipsProtocols {
 
 /** @fmod-object-id 3162 @fmod-path "studio.project.model.SslNucleusControlSurface.superEntities" */
 interface StudioProjectModelSslNucleusControlSurfaceSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -24000,6 +24177,7 @@ interface StudioProjectModelSustainPointRelationshipsTriggerConditions {
 
 /** @fmod-object-id 3170 @fmod-path "studio.project.model.SustainPoint.superEntities" */
 interface StudioProjectModelSustainPointSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     length: number;
@@ -24082,6 +24260,7 @@ interface StudioProjectModelTagFolderRelationshipsItems {
 
 /** @fmod-object-id 3197 @fmod-path "studio.project.model.TagFolder.superEntities" */
 interface StudioProjectModelTagFolderSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -24133,6 +24312,7 @@ interface StudioProjectModelTagRelationshipsTaggables {
 
 /** @fmod-object-id 3188 @fmod-path "studio.project.model.Tag.superEntities" */
 interface StudioProjectModelTagSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -24170,6 +24350,7 @@ interface StudioProjectModelTaggableRelationshipsTags {
 
 /** @fmod-object-id 3206 @fmod-path "studio.project.model.Taggable.superEntities" */
 interface StudioProjectModelTaggableSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -24297,6 +24478,7 @@ interface StudioProjectModelTempoMarkerRelationshipsTimeline {
 
 /** @fmod-object-id 3211 @fmod-path "studio.project.model.TempoMarker.superEntities" */
 interface StudioProjectModelTempoMarkerSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -24390,6 +24572,7 @@ interface StudioProjectModelTfsProviderRelationshipsWorkspace {
 
 /** @fmod-object-id 3228 @fmod-path "studio.project.model.TfsProvider.superEntities" */
 interface StudioProjectModelTfsProviderSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -24538,6 +24721,7 @@ interface StudioProjectModelThreeEQEffectRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 3241 @fmod-path "studio.project.model.ThreeEQEffect.superEntities" */
 interface StudioProjectModelThreeEQEffectSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -24674,6 +24858,7 @@ interface StudioProjectModelTimelineRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 3261 @fmod-path "studio.project.model.Timeline.superEntities" */
 interface StudioProjectModelTimelineSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     length: number;
@@ -24734,6 +24919,7 @@ interface StudioProjectModelTouchOscControlSurfaceRelationshipsProtocols {
 
 /** @fmod-object-id 3279 @fmod-path "studio.project.model.TouchOscControlSurface.superEntities" */
 interface StudioProjectModelTouchOscControlSurfaceSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -24778,6 +24964,7 @@ interface StudioProjectModelTrackRelationshipsSelector {
 
 /** @fmod-object-id 3287 @fmod-path "studio.project.model.Track.superEntities" */
 interface StudioProjectModelTrackSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -24912,6 +25099,7 @@ interface StudioProjectModelTransceiverEffectRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 3293 @fmod-path "studio.project.model.TransceiverEffect.superEntities" */
 interface StudioProjectModelTransceiverEffectSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -24996,6 +25184,7 @@ interface StudioProjectModelTransitionDestinationFadeInCurveRelationshipsStartPo
 
 /** @fmod-object-id 3317 @fmod-path "studio.project.model.TransitionDestinationFadeInCurve.superEntities" */
 interface StudioProjectModelTransitionDestinationFadeInCurveSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -25269,12 +25458,14 @@ interface StudioProjectModelTransitionDestinationSoundRelationshipsTriggerCondit
 
 /** @fmod-object-id 3326 @fmod-path "studio.project.model.TransitionDestinationSound.superEntities" */
 interface StudioProjectModelTransitionDestinationSoundSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
 
 /** @fmod-object-id 3311 @fmod-path "studio.project.model.TransitionDestination.superEntities" */
 interface StudioProjectModelTransitionDestinationSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -25344,6 +25535,7 @@ interface StudioProjectModelTransitionFadeCurveRelationshipsStartPoint {
 
 /** @fmod-object-id 3360 @fmod-path "studio.project.model.TransitionFadeCurve.superEntities" */
 interface StudioProjectModelTransitionFadeCurveSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -25502,6 +25694,7 @@ interface StudioProjectModelTransitionMarkerRelationshipsTriggerConditions {
 
 /** @fmod-object-id 3369 @fmod-path "studio.project.model.TransitionMarker.superEntities" */
 interface StudioProjectModelTransitionMarkerSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     "2": string;
@@ -25683,6 +25876,7 @@ interface StudioProjectModelTransitionRegionRelationshipsTriggerConditions {
 
 /** @fmod-object-id 3390 @fmod-path "studio.project.model.TransitionRegion.superEntities" */
 interface StudioProjectModelTransitionRegionSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     "2": string;
@@ -25755,6 +25949,7 @@ interface StudioProjectModelTransitionSourceFadeOutCurveRelationshipsStartPoint 
 
 /** @fmod-object-id 3414 @fmod-path "studio.project.model.TransitionSourceFadeOutCurve.superEntities" */
 interface StudioProjectModelTransitionSourceFadeOutCurveSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -26005,6 +26200,7 @@ interface StudioProjectModelTransitionSourceSoundRelationshipsTriggerConditions 
 
 /** @fmod-object-id 3423 @fmod-path "studio.project.model.TransitionSourceSound.superEntities" */
 interface StudioProjectModelTransitionSourceSoundSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -26072,6 +26268,7 @@ interface StudioProjectModelTransitionTimelineOwnerRelationshipsTransitionTimeli
 
 /** @fmod-object-id 3476 @fmod-path "studio.project.model.TransitionTimelineOwner.superEntities" */
 interface StudioProjectModelTransitionTimelineOwnerSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -26200,6 +26397,7 @@ interface StudioProjectModelTransitionTimelineRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 3457 @fmod-path "studio.project.model.TransitionTimeline.superEntities" */
 interface StudioProjectModelTransitionTimelineSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -26362,6 +26560,7 @@ interface StudioProjectModelTremoloEffectRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 3483 @fmod-path "studio.project.model.TremoloEffect.superEntities" */
 interface StudioProjectModelTremoloEffectSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -26445,6 +26644,7 @@ interface StudioProjectModelTriggerConditionRelationshipsSnapshotProperties {
 
 /** @fmod-object-id 3505 @fmod-path "studio.project.model.TriggerCondition.superEntities" */
 interface StudioProjectModelTriggerConditionSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -26503,6 +26703,7 @@ interface StudioProjectModelTriggerableRelationshipsTriggerConditions {
 
 /** @fmod-object-id 3516 @fmod-path "studio.project.model.Triggerable.superEntities" */
 interface StudioProjectModelTriggerableSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -26555,6 +26756,7 @@ interface StudioProjectModelUiMixerViewRelationshipsMixer {
 
 /** @fmod-object-id 3524 @fmod-path "studio.project.model.UiMixerView.superEntities" */
 interface StudioProjectModelUiMixerViewSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -26606,6 +26808,7 @@ interface StudioProjectModelUserPropertyRelationshipsEvent {
 
 /** @fmod-object-id 3531 @fmod-path "studio.project.model.UserProperty.superEntities" */
 interface StudioProjectModelUserPropertySuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -26672,6 +26875,7 @@ interface StudioProjectModelWorkspaceBasedSourceControlProviderRelationshipsWork
 
 /** @fmod-object-id 3569 @fmod-path "studio.project.model.WorkspaceBasedSourceControlProvider.superEntities" */
 interface StudioProjectModelWorkspaceBasedSourceControlProviderSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -26723,6 +26927,7 @@ interface StudioProjectModelWorkspaceChangelistRelationshipsWorkspace {
 
 /** @fmod-object-id 3576 @fmod-path "studio.project.model.WorkspaceChangelist.superEntities" */
 interface StudioProjectModelWorkspaceChangelistSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -26781,6 +26986,7 @@ interface StudioProjectModelWorkspaceItemRelationshipsFolder {
 
 /** @fmod-object-id 3583 @fmod-path "studio.project.model.WorkspaceItem.superEntities" */
 interface StudioProjectModelWorkspaceItemSuperEntities {
+    [index: number]: string;
     "0": string;
     "1": string;
     length: number;
@@ -27000,6 +27206,7 @@ interface StudioProjectModelWorkspaceRelationshipsSourceControlProvider {
 
 /** @fmod-object-id 3538 @fmod-path "studio.project.model.Workspace.superEntities" */
 interface StudioProjectModelWorkspaceSuperEntities {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -27629,6 +27836,7 @@ interface StudioProjectWorkspaceChangelistWorkspaceIsOfTypePrototype {
 
 /** @fmod-object-id 23434 @fmod-path "studio.project.workspace.changelist.workspace.locales" */
 interface StudioProjectWorkspaceChangelistWorkspaceLocales {
+    [index: number]: StudioProjectWorkspaceChangelistWorkspaceLocales0 | StudioProjectWorkspaceChangelistWorkspaceLocales1;
     "0": StudioProjectWorkspaceChangelistWorkspaceLocales0;
     "1": StudioProjectWorkspaceChangelistWorkspaceLocales1;
     length: number;
@@ -28129,6 +28337,7 @@ interface StudioProjectWorkspaceChangelistWorkspaceMixer_reload {
 
 /** @fmod-object-id 23429 @fmod-path "studio.project.workspace.changelist.workspace.platforms" */
 interface StudioProjectWorkspaceChangelistWorkspacePlatforms {
+    [index: number]: StudioProjectWorkspaceChangelistWorkspacePlatforms0 | StudioProjectWorkspaceChangelistWorkspacePlatforms1 | StudioProjectWorkspaceChangelistWorkspacePlatforms2 | StudioProjectWorkspaceChangelistWorkspacePlatforms3;
     "0": StudioProjectWorkspaceChangelistWorkspacePlatforms0;
     "1": StudioProjectWorkspaceChangelistWorkspacePlatforms1;
     "2": StudioProjectWorkspaceChangelistWorkspacePlatforms2;
@@ -28517,6 +28726,7 @@ interface StudioProjectWorkspaceIsOfTypePrototype {
 
 /** @fmod-object-id 24343 @fmod-path "studio.project.workspace.locales" */
 interface StudioProjectWorkspaceLocales {
+    [index: number]: StudioProjectWorkspaceLocales0 | StudioProjectWorkspaceLocales1;
     "0": StudioProjectWorkspaceLocales0;
     "1": StudioProjectWorkspaceLocales1;
     length: number;
@@ -29149,6 +29359,7 @@ interface StudioProjectWorkspaceMasterAssetFolder {
 
 /** @fmod-object-id 7006 @fmod-path "studio.project.workspace.masterAssetFolder.assets" */
 interface StudioProjectWorkspaceMasterAssetFolderAssets {
+    [index: number]: StudioProjectWorkspaceMasterAssetFolderAssets0 | StudioProjectWorkspaceMasterAssetFolderAssets1 | StudioProjectWorkspaceMasterAssetFolderAssets10 | StudioProjectWorkspaceMasterAssetFolderAssets100 | StudioProjectWorkspaceMasterAssetFolderAssets1000 | StudioProjectWorkspaceMasterAssetFolderAssets1001 | StudioProjectWorkspaceMasterAssetFolderAssets1002 | StudioProjectWorkspaceMasterAssetFolderAssets1003 | StudioProjectWorkspaceMasterAssetFolderAssets1004 | StudioProjectWorkspaceMasterAssetFolderAssets1005 | StudioProjectWorkspaceMasterAssetFolderAssets1006 | StudioProjectWorkspaceMasterAssetFolderAssets1007 | StudioProjectWorkspaceMasterAssetFolderAssets1008 | StudioProjectWorkspaceMasterAssetFolderAssets1009 | StudioProjectWorkspaceMasterAssetFolderAssets101 | StudioProjectWorkspaceMasterAssetFolderAssets1010 | StudioProjectWorkspaceMasterAssetFolderAssets1011 | StudioProjectWorkspaceMasterAssetFolderAssets1012 | StudioProjectWorkspaceMasterAssetFolderAssets1013 | StudioProjectWorkspaceMasterAssetFolderAssets1014 | StudioProjectWorkspaceMasterAssetFolderAssets1015 | StudioProjectWorkspaceMasterAssetFolderAssets1016 | StudioProjectWorkspaceMasterAssetFolderAssets1017 | StudioProjectWorkspaceMasterAssetFolderAssets1018 | StudioProjectWorkspaceMasterAssetFolderAssets1019 | StudioProjectWorkspaceMasterAssetFolderAssets102 | StudioProjectWorkspaceMasterAssetFolderAssets1020 | StudioProjectWorkspaceMasterAssetFolderAssets1021 | StudioProjectWorkspaceMasterAssetFolderAssets1022 | StudioProjectWorkspaceMasterAssetFolderAssets1023 | StudioProjectWorkspaceMasterAssetFolderAssets1024 | StudioProjectWorkspaceMasterAssetFolderAssets1025 | StudioProjectWorkspaceMasterAssetFolderAssets1026 | StudioProjectWorkspaceMasterAssetFolderAssets1027 | StudioProjectWorkspaceMasterAssetFolderAssets1028 | StudioProjectWorkspaceMasterAssetFolderAssets1029 | StudioProjectWorkspaceMasterAssetFolderAssets103 | StudioProjectWorkspaceMasterAssetFolderAssets1030 | StudioProjectWorkspaceMasterAssetFolderAssets1031 | StudioProjectWorkspaceMasterAssetFolderAssets1032 | StudioProjectWorkspaceMasterAssetFolderAssets1033 | StudioProjectWorkspaceMasterAssetFolderAssets1034 | StudioProjectWorkspaceMasterAssetFolderAssets1035 | StudioProjectWorkspaceMasterAssetFolderAssets1036 | StudioProjectWorkspaceMasterAssetFolderAssets1037 | StudioProjectWorkspaceMasterAssetFolderAssets1038 | StudioProjectWorkspaceMasterAssetFolderAssets1039 | StudioProjectWorkspaceMasterAssetFolderAssets104 | StudioProjectWorkspaceMasterAssetFolderAssets1040 | StudioProjectWorkspaceMasterAssetFolderAssets1041 | StudioProjectWorkspaceMasterAssetFolderAssets1042 | StudioProjectWorkspaceMasterAssetFolderAssets1043 | StudioProjectWorkspaceMasterAssetFolderAssets1044 | StudioProjectWorkspaceMasterAssetFolderAssets1045 | StudioProjectWorkspaceMasterAssetFolderAssets1046 | StudioProjectWorkspaceMasterAssetFolderAssets1047 | StudioProjectWorkspaceMasterAssetFolderAssets1048 | StudioProjectWorkspaceMasterAssetFolderAssets1049 | StudioProjectWorkspaceMasterAssetFolderAssets105 | StudioProjectWorkspaceMasterAssetFolderAssets1050 | StudioProjectWorkspaceMasterAssetFolderAssets1051 | StudioProjectWorkspaceMasterAssetFolderAssets1052 | StudioProjectWorkspaceMasterAssetFolderAssets1053 | StudioProjectWorkspaceMasterAssetFolderAssets1054 | StudioProjectWorkspaceMasterAssetFolderAssets1055 | StudioProjectWorkspaceMasterAssetFolderAssets1056 | StudioProjectWorkspaceMasterAssetFolderAssets1057 | StudioProjectWorkspaceMasterAssetFolderAssets1058 | StudioProjectWorkspaceMasterAssetFolderAssets1059 | StudioProjectWorkspaceMasterAssetFolderAssets106 | StudioProjectWorkspaceMasterAssetFolderAssets1060 | StudioProjectWorkspaceMasterAssetFolderAssets1061 | StudioProjectWorkspaceMasterAssetFolderAssets1062 | StudioProjectWorkspaceMasterAssetFolderAssets1063 | StudioProjectWorkspaceMasterAssetFolderAssets1064 | StudioProjectWorkspaceMasterAssetFolderAssets1065 | StudioProjectWorkspaceMasterAssetFolderAssets1066 | StudioProjectWorkspaceMasterAssetFolderAssets1067 | StudioProjectWorkspaceMasterAssetFolderAssets1068 | StudioProjectWorkspaceMasterAssetFolderAssets1069 | StudioProjectWorkspaceMasterAssetFolderAssets107 | StudioProjectWorkspaceMasterAssetFolderAssets1070 | StudioProjectWorkspaceMasterAssetFolderAssets1071 | StudioProjectWorkspaceMasterAssetFolderAssets1072 | StudioProjectWorkspaceMasterAssetFolderAssets1073 | StudioProjectWorkspaceMasterAssetFolderAssets1074 | StudioProjectWorkspaceMasterAssetFolderAssets1075 | StudioProjectWorkspaceMasterAssetFolderAssets1076 | StudioProjectWorkspaceMasterAssetFolderAssets1077 | StudioProjectWorkspaceMasterAssetFolderAssets1078 | StudioProjectWorkspaceMasterAssetFolderAssets1079 | StudioProjectWorkspaceMasterAssetFolderAssets108 | StudioProjectWorkspaceMasterAssetFolderAssets1080 | StudioProjectWorkspaceMasterAssetFolderAssets1081 | StudioProjectWorkspaceMasterAssetFolderAssets1082 | StudioProjectWorkspaceMasterAssetFolderAssets1083 | StudioProjectWorkspaceMasterAssetFolderAssets1084 | StudioProjectWorkspaceMasterAssetFolderAssets1085 | StudioProjectWorkspaceMasterAssetFolderAssets1086 | StudioProjectWorkspaceMasterAssetFolderAssets1087 | StudioProjectWorkspaceMasterAssetFolderAssets1088 | StudioProjectWorkspaceMasterAssetFolderAssets1089 | StudioProjectWorkspaceMasterAssetFolderAssets109 | StudioProjectWorkspaceMasterAssetFolderAssets1090 | StudioProjectWorkspaceMasterAssetFolderAssets1091 | StudioProjectWorkspaceMasterAssetFolderAssets1092 | StudioProjectWorkspaceMasterAssetFolderAssets1093 | StudioProjectWorkspaceMasterAssetFolderAssets1094 | StudioProjectWorkspaceMasterAssetFolderAssets1095 | StudioProjectWorkspaceMasterAssetFolderAssets1096 | StudioProjectWorkspaceMasterAssetFolderAssets1097 | StudioProjectWorkspaceMasterAssetFolderAssets1098 | StudioProjectWorkspaceMasterAssetFolderAssets1099 | StudioProjectWorkspaceMasterAssetFolderAssets11 | StudioProjectWorkspaceMasterAssetFolderAssets110 | StudioProjectWorkspaceMasterAssetFolderAssets1100 | StudioProjectWorkspaceMasterAssetFolderAssets1101 | StudioProjectWorkspaceMasterAssetFolderAssets1102 | StudioProjectWorkspaceMasterAssetFolderAssets1103 | StudioProjectWorkspaceMasterAssetFolderAssets1104 | StudioProjectWorkspaceMasterAssetFolderAssets1105 | StudioProjectWorkspaceMasterAssetFolderAssets1106 | StudioProjectWorkspaceMasterAssetFolderAssets1107 | StudioProjectWorkspaceMasterAssetFolderAssets1108 | StudioProjectWorkspaceMasterAssetFolderAssets1109 | StudioProjectWorkspaceMasterAssetFolderAssets111 | StudioProjectWorkspaceMasterAssetFolderAssets1110 | StudioProjectWorkspaceMasterAssetFolderAssets1111 | StudioProjectWorkspaceMasterAssetFolderAssets1112 | StudioProjectWorkspaceMasterAssetFolderAssets1113 | StudioProjectWorkspaceMasterAssetFolderAssets1114 | StudioProjectWorkspaceMasterAssetFolderAssets1115 | StudioProjectWorkspaceMasterAssetFolderAssets1116 | StudioProjectWorkspaceMasterAssetFolderAssets1117 | StudioProjectWorkspaceMasterAssetFolderAssets1118 | StudioProjectWorkspaceMasterAssetFolderAssets1119 | StudioProjectWorkspaceMasterAssetFolderAssets112 | StudioProjectWorkspaceMasterAssetFolderAssets1120 | StudioProjectWorkspaceMasterAssetFolderAssets1121 | StudioProjectWorkspaceMasterAssetFolderAssets1122 | StudioProjectWorkspaceMasterAssetFolderAssets1123 | StudioProjectWorkspaceMasterAssetFolderAssets1124 | StudioProjectWorkspaceMasterAssetFolderAssets1125 | StudioProjectWorkspaceMasterAssetFolderAssets1126 | StudioProjectWorkspaceMasterAssetFolderAssets1127 | StudioProjectWorkspaceMasterAssetFolderAssets1128 | StudioProjectWorkspaceMasterAssetFolderAssets1129 | StudioProjectWorkspaceMasterAssetFolderAssets113 | StudioProjectWorkspaceMasterAssetFolderAssets1130 | StudioProjectWorkspaceMasterAssetFolderAssets1131 | StudioProjectWorkspaceMasterAssetFolderAssets1132 | StudioProjectWorkspaceMasterAssetFolderAssets1133 | StudioProjectWorkspaceMasterAssetFolderAssets1134 | StudioProjectWorkspaceMasterAssetFolderAssets1135 | StudioProjectWorkspaceMasterAssetFolderAssets1136 | StudioProjectWorkspaceMasterAssetFolderAssets1137 | StudioProjectWorkspaceMasterAssetFolderAssets1138 | StudioProjectWorkspaceMasterAssetFolderAssets1139 | StudioProjectWorkspaceMasterAssetFolderAssets114 | StudioProjectWorkspaceMasterAssetFolderAssets1140 | StudioProjectWorkspaceMasterAssetFolderAssets1141 | StudioProjectWorkspaceMasterAssetFolderAssets1142 | StudioProjectWorkspaceMasterAssetFolderAssets1143 | StudioProjectWorkspaceMasterAssetFolderAssets1144 | StudioProjectWorkspaceMasterAssetFolderAssets1145 | StudioProjectWorkspaceMasterAssetFolderAssets1146 | StudioProjectWorkspaceMasterAssetFolderAssets1147 | StudioProjectWorkspaceMasterAssetFolderAssets1148 | StudioProjectWorkspaceMasterAssetFolderAssets1149 | StudioProjectWorkspaceMasterAssetFolderAssets115 | StudioProjectWorkspaceMasterAssetFolderAssets1150 | StudioProjectWorkspaceMasterAssetFolderAssets1151 | StudioProjectWorkspaceMasterAssetFolderAssets1152 | StudioProjectWorkspaceMasterAssetFolderAssets1153 | StudioProjectWorkspaceMasterAssetFolderAssets1154 | StudioProjectWorkspaceMasterAssetFolderAssets1155 | StudioProjectWorkspaceMasterAssetFolderAssets1156 | StudioProjectWorkspaceMasterAssetFolderAssets1157 | StudioProjectWorkspaceMasterAssetFolderAssets1158 | StudioProjectWorkspaceMasterAssetFolderAssets1159 | StudioProjectWorkspaceMasterAssetFolderAssets116 | StudioProjectWorkspaceMasterAssetFolderAssets1160 | StudioProjectWorkspaceMasterAssetFolderAssets1161 | StudioProjectWorkspaceMasterAssetFolderAssets1162 | StudioProjectWorkspaceMasterAssetFolderAssets1163 | StudioProjectWorkspaceMasterAssetFolderAssets1164 | StudioProjectWorkspaceMasterAssetFolderAssets1165 | StudioProjectWorkspaceMasterAssetFolderAssets1166 | StudioProjectWorkspaceMasterAssetFolderAssets1167 | StudioProjectWorkspaceMasterAssetFolderAssets1168 | StudioProjectWorkspaceMasterAssetFolderAssets1169 | StudioProjectWorkspaceMasterAssetFolderAssets117 | StudioProjectWorkspaceMasterAssetFolderAssets1170 | StudioProjectWorkspaceMasterAssetFolderAssets1171 | StudioProjectWorkspaceMasterAssetFolderAssets1172 | StudioProjectWorkspaceMasterAssetFolderAssets1173 | StudioProjectWorkspaceMasterAssetFolderAssets1174 | StudioProjectWorkspaceMasterAssetFolderAssets1175 | StudioProjectWorkspaceMasterAssetFolderAssets1176 | StudioProjectWorkspaceMasterAssetFolderAssets1177 | StudioProjectWorkspaceMasterAssetFolderAssets1178 | StudioProjectWorkspaceMasterAssetFolderAssets1179 | StudioProjectWorkspaceMasterAssetFolderAssets118 | StudioProjectWorkspaceMasterAssetFolderAssets1180 | StudioProjectWorkspaceMasterAssetFolderAssets1181 | StudioProjectWorkspaceMasterAssetFolderAssets1182 | StudioProjectWorkspaceMasterAssetFolderAssets1183 | StudioProjectWorkspaceMasterAssetFolderAssets1184 | StudioProjectWorkspaceMasterAssetFolderAssets1185 | StudioProjectWorkspaceMasterAssetFolderAssets1186 | StudioProjectWorkspaceMasterAssetFolderAssets1187 | StudioProjectWorkspaceMasterAssetFolderAssets1188 | StudioProjectWorkspaceMasterAssetFolderAssets1189 | StudioProjectWorkspaceMasterAssetFolderAssets119 | StudioProjectWorkspaceMasterAssetFolderAssets1190 | StudioProjectWorkspaceMasterAssetFolderAssets1191 | StudioProjectWorkspaceMasterAssetFolderAssets1192 | StudioProjectWorkspaceMasterAssetFolderAssets1193 | StudioProjectWorkspaceMasterAssetFolderAssets1194 | StudioProjectWorkspaceMasterAssetFolderAssets1195 | StudioProjectWorkspaceMasterAssetFolderAssets1196 | StudioProjectWorkspaceMasterAssetFolderAssets1197 | StudioProjectWorkspaceMasterAssetFolderAssets1198 | StudioProjectWorkspaceMasterAssetFolderAssets1199 | StudioProjectWorkspaceMasterAssetFolderAssets12 | StudioProjectWorkspaceMasterAssetFolderAssets120 | StudioProjectWorkspaceMasterAssetFolderAssets1200 | StudioProjectWorkspaceMasterAssetFolderAssets1201 | StudioProjectWorkspaceMasterAssetFolderAssets1202 | StudioProjectWorkspaceMasterAssetFolderAssets1203 | StudioProjectWorkspaceMasterAssetFolderAssets1204 | StudioProjectWorkspaceMasterAssetFolderAssets1205 | StudioProjectWorkspaceMasterAssetFolderAssets1206 | StudioProjectWorkspaceMasterAssetFolderAssets1207 | StudioProjectWorkspaceMasterAssetFolderAssets1208 | StudioProjectWorkspaceMasterAssetFolderAssets1209 | StudioProjectWorkspaceMasterAssetFolderAssets121 | StudioProjectWorkspaceMasterAssetFolderAssets1210 | StudioProjectWorkspaceMasterAssetFolderAssets1211 | StudioProjectWorkspaceMasterAssetFolderAssets1212 | StudioProjectWorkspaceMasterAssetFolderAssets1213 | StudioProjectWorkspaceMasterAssetFolderAssets1214 | StudioProjectWorkspaceMasterAssetFolderAssets1215 | StudioProjectWorkspaceMasterAssetFolderAssets1216 | StudioProjectWorkspaceMasterAssetFolderAssets1217 | StudioProjectWorkspaceMasterAssetFolderAssets1218 | StudioProjectWorkspaceMasterAssetFolderAssets1219 | StudioProjectWorkspaceMasterAssetFolderAssets122 | StudioProjectWorkspaceMasterAssetFolderAssets1220 | StudioProjectWorkspaceMasterAssetFolderAssets1221 | StudioProjectWorkspaceMasterAssetFolderAssets1222 | StudioProjectWorkspaceMasterAssetFolderAssets1223 | StudioProjectWorkspaceMasterAssetFolderAssets1224 | StudioProjectWorkspaceMasterAssetFolderAssets1225 | StudioProjectWorkspaceMasterAssetFolderAssets1226 | StudioProjectWorkspaceMasterAssetFolderAssets1227 | StudioProjectWorkspaceMasterAssetFolderAssets1228 | StudioProjectWorkspaceMasterAssetFolderAssets1229 | StudioProjectWorkspaceMasterAssetFolderAssets123 | StudioProjectWorkspaceMasterAssetFolderAssets1230 | StudioProjectWorkspaceMasterAssetFolderAssets1231 | StudioProjectWorkspaceMasterAssetFolderAssets1232 | StudioProjectWorkspaceMasterAssetFolderAssets1233 | StudioProjectWorkspaceMasterAssetFolderAssets1234 | StudioProjectWorkspaceMasterAssetFolderAssets1235 | StudioProjectWorkspaceMasterAssetFolderAssets1236 | StudioProjectWorkspaceMasterAssetFolderAssets1237 | StudioProjectWorkspaceMasterAssetFolderAssets1238 | StudioProjectWorkspaceMasterAssetFolderAssets1239 | StudioProjectWorkspaceMasterAssetFolderAssets124 | StudioProjectWorkspaceMasterAssetFolderAssets1240 | StudioProjectWorkspaceMasterAssetFolderAssets1241 | StudioProjectWorkspaceMasterAssetFolderAssets1242 | StudioProjectWorkspaceMasterAssetFolderAssets1243 | StudioProjectWorkspaceMasterAssetFolderAssets1244 | StudioProjectWorkspaceMasterAssetFolderAssets1245 | StudioProjectWorkspaceMasterAssetFolderAssets1246 | StudioProjectWorkspaceMasterAssetFolderAssets1247 | StudioProjectWorkspaceMasterAssetFolderAssets1248 | StudioProjectWorkspaceMasterAssetFolderAssets1249 | StudioProjectWorkspaceMasterAssetFolderAssets125 | StudioProjectWorkspaceMasterAssetFolderAssets1250 | StudioProjectWorkspaceMasterAssetFolderAssets1251 | StudioProjectWorkspaceMasterAssetFolderAssets1252 | StudioProjectWorkspaceMasterAssetFolderAssets1253 | StudioProjectWorkspaceMasterAssetFolderAssets1254 | StudioProjectWorkspaceMasterAssetFolderAssets1255 | StudioProjectWorkspaceMasterAssetFolderAssets1256 | StudioProjectWorkspaceMasterAssetFolderAssets1257 | StudioProjectWorkspaceMasterAssetFolderAssets1258 | StudioProjectWorkspaceMasterAssetFolderAssets1259 | StudioProjectWorkspaceMasterAssetFolderAssets126 | StudioProjectWorkspaceMasterAssetFolderAssets1260 | StudioProjectWorkspaceMasterAssetFolderAssets1261 | StudioProjectWorkspaceMasterAssetFolderAssets1262 | StudioProjectWorkspaceMasterAssetFolderAssets127 | StudioProjectWorkspaceMasterAssetFolderAssets128 | StudioProjectWorkspaceMasterAssetFolderAssets129 | StudioProjectWorkspaceMasterAssetFolderAssets13 | StudioProjectWorkspaceMasterAssetFolderAssets130 | StudioProjectWorkspaceMasterAssetFolderAssets131 | StudioProjectWorkspaceMasterAssetFolderAssets132 | StudioProjectWorkspaceMasterAssetFolderAssets133 | StudioProjectWorkspaceMasterAssetFolderAssets134 | StudioProjectWorkspaceMasterAssetFolderAssets135 | StudioProjectWorkspaceMasterAssetFolderAssets136 | StudioProjectWorkspaceMasterAssetFolderAssets137 | StudioProjectWorkspaceMasterAssetFolderAssets138 | StudioProjectWorkspaceMasterAssetFolderAssets139 | StudioProjectWorkspaceMasterAssetFolderAssets14 | StudioProjectWorkspaceMasterAssetFolderAssets140 | StudioProjectWorkspaceMasterAssetFolderAssets141 | StudioProjectWorkspaceMasterAssetFolderAssets142 | StudioProjectWorkspaceMasterAssetFolderAssets143 | StudioProjectWorkspaceMasterAssetFolderAssets144 | StudioProjectWorkspaceMasterAssetFolderAssets145 | StudioProjectWorkspaceMasterAssetFolderAssets146 | StudioProjectWorkspaceMasterAssetFolderAssets147 | StudioProjectWorkspaceMasterAssetFolderAssets148 | StudioProjectWorkspaceMasterAssetFolderAssets149 | StudioProjectWorkspaceMasterAssetFolderAssets15 | StudioProjectWorkspaceMasterAssetFolderAssets150 | StudioProjectWorkspaceMasterAssetFolderAssets151 | StudioProjectWorkspaceMasterAssetFolderAssets152 | StudioProjectWorkspaceMasterAssetFolderAssets153 | StudioProjectWorkspaceMasterAssetFolderAssets154 | StudioProjectWorkspaceMasterAssetFolderAssets155 | StudioProjectWorkspaceMasterAssetFolderAssets156 | StudioProjectWorkspaceMasterAssetFolderAssets157 | StudioProjectWorkspaceMasterAssetFolderAssets158 | StudioProjectWorkspaceMasterAssetFolderAssets159 | StudioProjectWorkspaceMasterAssetFolderAssets16 | StudioProjectWorkspaceMasterAssetFolderAssets160 | StudioProjectWorkspaceMasterAssetFolderAssets161 | StudioProjectWorkspaceMasterAssetFolderAssets162 | StudioProjectWorkspaceMasterAssetFolderAssets163 | StudioProjectWorkspaceMasterAssetFolderAssets164 | StudioProjectWorkspaceMasterAssetFolderAssets165 | StudioProjectWorkspaceMasterAssetFolderAssets166 | StudioProjectWorkspaceMasterAssetFolderAssets167 | StudioProjectWorkspaceMasterAssetFolderAssets168 | StudioProjectWorkspaceMasterAssetFolderAssets169 | StudioProjectWorkspaceMasterAssetFolderAssets17 | StudioProjectWorkspaceMasterAssetFolderAssets170 | StudioProjectWorkspaceMasterAssetFolderAssets171 | StudioProjectWorkspaceMasterAssetFolderAssets172 | StudioProjectWorkspaceMasterAssetFolderAssets173 | StudioProjectWorkspaceMasterAssetFolderAssets174 | StudioProjectWorkspaceMasterAssetFolderAssets175 | StudioProjectWorkspaceMasterAssetFolderAssets176 | StudioProjectWorkspaceMasterAssetFolderAssets177 | StudioProjectWorkspaceMasterAssetFolderAssets178 | StudioProjectWorkspaceMasterAssetFolderAssets179 | StudioProjectWorkspaceMasterAssetFolderAssets18 | StudioProjectWorkspaceMasterAssetFolderAssets180 | StudioProjectWorkspaceMasterAssetFolderAssets181 | StudioProjectWorkspaceMasterAssetFolderAssets182 | StudioProjectWorkspaceMasterAssetFolderAssets183 | StudioProjectWorkspaceMasterAssetFolderAssets184 | StudioProjectWorkspaceMasterAssetFolderAssets185 | StudioProjectWorkspaceMasterAssetFolderAssets186 | StudioProjectWorkspaceMasterAssetFolderAssets187 | StudioProjectWorkspaceMasterAssetFolderAssets188 | StudioProjectWorkspaceMasterAssetFolderAssets189 | StudioProjectWorkspaceMasterAssetFolderAssets19 | StudioProjectWorkspaceMasterAssetFolderAssets190 | StudioProjectWorkspaceMasterAssetFolderAssets191 | StudioProjectWorkspaceMasterAssetFolderAssets192 | StudioProjectWorkspaceMasterAssetFolderAssets193 | StudioProjectWorkspaceMasterAssetFolderAssets194 | StudioProjectWorkspaceMasterAssetFolderAssets195 | StudioProjectWorkspaceMasterAssetFolderAssets196 | StudioProjectWorkspaceMasterAssetFolderAssets197 | StudioProjectWorkspaceMasterAssetFolderAssets198 | StudioProjectWorkspaceMasterAssetFolderAssets199 | StudioProjectWorkspaceMasterAssetFolderAssets2 | StudioProjectWorkspaceMasterAssetFolderAssets20 | StudioProjectWorkspaceMasterAssetFolderAssets200 | StudioProjectWorkspaceMasterAssetFolderAssets201 | StudioProjectWorkspaceMasterAssetFolderAssets202 | StudioProjectWorkspaceMasterAssetFolderAssets203 | StudioProjectWorkspaceMasterAssetFolderAssets204 | StudioProjectWorkspaceMasterAssetFolderAssets205 | StudioProjectWorkspaceMasterAssetFolderAssets206 | StudioProjectWorkspaceMasterAssetFolderAssets207 | StudioProjectWorkspaceMasterAssetFolderAssets208 | StudioProjectWorkspaceMasterAssetFolderAssets209 | StudioProjectWorkspaceMasterAssetFolderAssets21 | StudioProjectWorkspaceMasterAssetFolderAssets210 | StudioProjectWorkspaceMasterAssetFolderAssets211 | StudioProjectWorkspaceMasterAssetFolderAssets212 | StudioProjectWorkspaceMasterAssetFolderAssets213 | StudioProjectWorkspaceMasterAssetFolderAssets214 | StudioProjectWorkspaceMasterAssetFolderAssets215 | StudioProjectWorkspaceMasterAssetFolderAssets216 | StudioProjectWorkspaceMasterAssetFolderAssets217 | StudioProjectWorkspaceMasterAssetFolderAssets218 | StudioProjectWorkspaceMasterAssetFolderAssets219 | StudioProjectWorkspaceMasterAssetFolderAssets22 | StudioProjectWorkspaceMasterAssetFolderAssets220 | StudioProjectWorkspaceMasterAssetFolderAssets221 | StudioProjectWorkspaceMasterAssetFolderAssets222 | StudioProjectWorkspaceMasterAssetFolderAssets223 | StudioProjectWorkspaceMasterAssetFolderAssets224 | StudioProjectWorkspaceMasterAssetFolderAssets225 | StudioProjectWorkspaceMasterAssetFolderAssets226 | StudioProjectWorkspaceMasterAssetFolderAssets227 | StudioProjectWorkspaceMasterAssetFolderAssets228 | StudioProjectWorkspaceMasterAssetFolderAssets229 | StudioProjectWorkspaceMasterAssetFolderAssets23 | StudioProjectWorkspaceMasterAssetFolderAssets230 | StudioProjectWorkspaceMasterAssetFolderAssets231 | StudioProjectWorkspaceMasterAssetFolderAssets232 | StudioProjectWorkspaceMasterAssetFolderAssets233 | StudioProjectWorkspaceMasterAssetFolderAssets234 | StudioProjectWorkspaceMasterAssetFolderAssets235 | StudioProjectWorkspaceMasterAssetFolderAssets236 | StudioProjectWorkspaceMasterAssetFolderAssets237 | StudioProjectWorkspaceMasterAssetFolderAssets238 | StudioProjectWorkspaceMasterAssetFolderAssets239 | StudioProjectWorkspaceMasterAssetFolderAssets24 | StudioProjectWorkspaceMasterAssetFolderAssets240 | StudioProjectWorkspaceMasterAssetFolderAssets241 | StudioProjectWorkspaceMasterAssetFolderAssets242 | StudioProjectWorkspaceMasterAssetFolderAssets243 | StudioProjectWorkspaceMasterAssetFolderAssets244 | StudioProjectWorkspaceMasterAssetFolderAssets245 | StudioProjectWorkspaceMasterAssetFolderAssets246 | StudioProjectWorkspaceMasterAssetFolderAssets247 | StudioProjectWorkspaceMasterAssetFolderAssets248 | StudioProjectWorkspaceMasterAssetFolderAssets249 | StudioProjectWorkspaceMasterAssetFolderAssets25 | StudioProjectWorkspaceMasterAssetFolderAssets250 | StudioProjectWorkspaceMasterAssetFolderAssets251 | StudioProjectWorkspaceMasterAssetFolderAssets252 | StudioProjectWorkspaceMasterAssetFolderAssets253 | StudioProjectWorkspaceMasterAssetFolderAssets254 | StudioProjectWorkspaceMasterAssetFolderAssets255 | StudioProjectWorkspaceMasterAssetFolderAssets256 | StudioProjectWorkspaceMasterAssetFolderAssets257 | StudioProjectWorkspaceMasterAssetFolderAssets258 | StudioProjectWorkspaceMasterAssetFolderAssets259 | StudioProjectWorkspaceMasterAssetFolderAssets26 | StudioProjectWorkspaceMasterAssetFolderAssets260 | StudioProjectWorkspaceMasterAssetFolderAssets261 | StudioProjectWorkspaceMasterAssetFolderAssets262 | StudioProjectWorkspaceMasterAssetFolderAssets263 | StudioProjectWorkspaceMasterAssetFolderAssets264 | StudioProjectWorkspaceMasterAssetFolderAssets265 | StudioProjectWorkspaceMasterAssetFolderAssets266 | StudioProjectWorkspaceMasterAssetFolderAssets267 | StudioProjectWorkspaceMasterAssetFolderAssets268 | StudioProjectWorkspaceMasterAssetFolderAssets269 | StudioProjectWorkspaceMasterAssetFolderAssets27 | StudioProjectWorkspaceMasterAssetFolderAssets270 | StudioProjectWorkspaceMasterAssetFolderAssets271 | StudioProjectWorkspaceMasterAssetFolderAssets272 | StudioProjectWorkspaceMasterAssetFolderAssets273 | StudioProjectWorkspaceMasterAssetFolderAssets274 | StudioProjectWorkspaceMasterAssetFolderAssets275 | StudioProjectWorkspaceMasterAssetFolderAssets276 | StudioProjectWorkspaceMasterAssetFolderAssets277 | StudioProjectWorkspaceMasterAssetFolderAssets278 | StudioProjectWorkspaceMasterAssetFolderAssets279 | StudioProjectWorkspaceMasterAssetFolderAssets28 | StudioProjectWorkspaceMasterAssetFolderAssets280 | StudioProjectWorkspaceMasterAssetFolderAssets281 | StudioProjectWorkspaceMasterAssetFolderAssets282 | StudioProjectWorkspaceMasterAssetFolderAssets283 | StudioProjectWorkspaceMasterAssetFolderAssets284 | StudioProjectWorkspaceMasterAssetFolderAssets285 | StudioProjectWorkspaceMasterAssetFolderAssets286 | StudioProjectWorkspaceMasterAssetFolderAssets287 | StudioProjectWorkspaceMasterAssetFolderAssets288 | StudioProjectWorkspaceMasterAssetFolderAssets289 | StudioProjectWorkspaceMasterAssetFolderAssets29 | StudioProjectWorkspaceMasterAssetFolderAssets290 | StudioProjectWorkspaceMasterAssetFolderAssets291 | StudioProjectWorkspaceMasterAssetFolderAssets292 | StudioProjectWorkspaceMasterAssetFolderAssets293 | StudioProjectWorkspaceMasterAssetFolderAssets294 | StudioProjectWorkspaceMasterAssetFolderAssets295 | StudioProjectWorkspaceMasterAssetFolderAssets296 | StudioProjectWorkspaceMasterAssetFolderAssets297 | StudioProjectWorkspaceMasterAssetFolderAssets298 | StudioProjectWorkspaceMasterAssetFolderAssets299 | StudioProjectWorkspaceMasterAssetFolderAssets3 | StudioProjectWorkspaceMasterAssetFolderAssets30 | StudioProjectWorkspaceMasterAssetFolderAssets300 | StudioProjectWorkspaceMasterAssetFolderAssets301 | StudioProjectWorkspaceMasterAssetFolderAssets302 | StudioProjectWorkspaceMasterAssetFolderAssets303 | StudioProjectWorkspaceMasterAssetFolderAssets304 | StudioProjectWorkspaceMasterAssetFolderAssets305 | StudioProjectWorkspaceMasterAssetFolderAssets306 | StudioProjectWorkspaceMasterAssetFolderAssets307 | StudioProjectWorkspaceMasterAssetFolderAssets308 | StudioProjectWorkspaceMasterAssetFolderAssets309 | StudioProjectWorkspaceMasterAssetFolderAssets31 | StudioProjectWorkspaceMasterAssetFolderAssets310 | StudioProjectWorkspaceMasterAssetFolderAssets311 | StudioProjectWorkspaceMasterAssetFolderAssets312 | StudioProjectWorkspaceMasterAssetFolderAssets313 | StudioProjectWorkspaceMasterAssetFolderAssets314 | StudioProjectWorkspaceMasterAssetFolderAssets315 | StudioProjectWorkspaceMasterAssetFolderAssets316 | StudioProjectWorkspaceMasterAssetFolderAssets317 | StudioProjectWorkspaceMasterAssetFolderAssets318 | StudioProjectWorkspaceMasterAssetFolderAssets319 | StudioProjectWorkspaceMasterAssetFolderAssets32 | StudioProjectWorkspaceMasterAssetFolderAssets320 | StudioProjectWorkspaceMasterAssetFolderAssets321 | StudioProjectWorkspaceMasterAssetFolderAssets322 | StudioProjectWorkspaceMasterAssetFolderAssets323 | StudioProjectWorkspaceMasterAssetFolderAssets324 | StudioProjectWorkspaceMasterAssetFolderAssets325 | StudioProjectWorkspaceMasterAssetFolderAssets326 | StudioProjectWorkspaceMasterAssetFolderAssets327 | StudioProjectWorkspaceMasterAssetFolderAssets328 | StudioProjectWorkspaceMasterAssetFolderAssets329 | StudioProjectWorkspaceMasterAssetFolderAssets33 | StudioProjectWorkspaceMasterAssetFolderAssets330 | StudioProjectWorkspaceMasterAssetFolderAssets331 | StudioProjectWorkspaceMasterAssetFolderAssets332 | StudioProjectWorkspaceMasterAssetFolderAssets333 | StudioProjectWorkspaceMasterAssetFolderAssets334 | StudioProjectWorkspaceMasterAssetFolderAssets335 | StudioProjectWorkspaceMasterAssetFolderAssets336 | StudioProjectWorkspaceMasterAssetFolderAssets337 | StudioProjectWorkspaceMasterAssetFolderAssets338 | StudioProjectWorkspaceMasterAssetFolderAssets339 | StudioProjectWorkspaceMasterAssetFolderAssets34 | StudioProjectWorkspaceMasterAssetFolderAssets340 | StudioProjectWorkspaceMasterAssetFolderAssets341 | StudioProjectWorkspaceMasterAssetFolderAssets342 | StudioProjectWorkspaceMasterAssetFolderAssets343 | StudioProjectWorkspaceMasterAssetFolderAssets344 | StudioProjectWorkspaceMasterAssetFolderAssets345 | StudioProjectWorkspaceMasterAssetFolderAssets346 | StudioProjectWorkspaceMasterAssetFolderAssets347 | StudioProjectWorkspaceMasterAssetFolderAssets348 | StudioProjectWorkspaceMasterAssetFolderAssets349 | StudioProjectWorkspaceMasterAssetFolderAssets35 | StudioProjectWorkspaceMasterAssetFolderAssets350 | StudioProjectWorkspaceMasterAssetFolderAssets351 | StudioProjectWorkspaceMasterAssetFolderAssets352 | StudioProjectWorkspaceMasterAssetFolderAssets353 | StudioProjectWorkspaceMasterAssetFolderAssets354 | StudioProjectWorkspaceMasterAssetFolderAssets355 | StudioProjectWorkspaceMasterAssetFolderAssets356 | StudioProjectWorkspaceMasterAssetFolderAssets357 | StudioProjectWorkspaceMasterAssetFolderAssets358 | StudioProjectWorkspaceMasterAssetFolderAssets359 | StudioProjectWorkspaceMasterAssetFolderAssets36 | StudioProjectWorkspaceMasterAssetFolderAssets360 | StudioProjectWorkspaceMasterAssetFolderAssets361 | StudioProjectWorkspaceMasterAssetFolderAssets362 | StudioProjectWorkspaceMasterAssetFolderAssets363 | StudioProjectWorkspaceMasterAssetFolderAssets364 | StudioProjectWorkspaceMasterAssetFolderAssets365 | StudioProjectWorkspaceMasterAssetFolderAssets366 | StudioProjectWorkspaceMasterAssetFolderAssets367 | StudioProjectWorkspaceMasterAssetFolderAssets368 | StudioProjectWorkspaceMasterAssetFolderAssets369 | StudioProjectWorkspaceMasterAssetFolderAssets37 | StudioProjectWorkspaceMasterAssetFolderAssets370 | StudioProjectWorkspaceMasterAssetFolderAssets371 | StudioProjectWorkspaceMasterAssetFolderAssets372 | StudioProjectWorkspaceMasterAssetFolderAssets373 | StudioProjectWorkspaceMasterAssetFolderAssets374 | StudioProjectWorkspaceMasterAssetFolderAssets375 | StudioProjectWorkspaceMasterAssetFolderAssets376 | StudioProjectWorkspaceMasterAssetFolderAssets377 | StudioProjectWorkspaceMasterAssetFolderAssets378 | StudioProjectWorkspaceMasterAssetFolderAssets379 | StudioProjectWorkspaceMasterAssetFolderAssets38 | StudioProjectWorkspaceMasterAssetFolderAssets380 | StudioProjectWorkspaceMasterAssetFolderAssets381 | StudioProjectWorkspaceMasterAssetFolderAssets382 | StudioProjectWorkspaceMasterAssetFolderAssets383 | StudioProjectWorkspaceMasterAssetFolderAssets384 | StudioProjectWorkspaceMasterAssetFolderAssets385 | StudioProjectWorkspaceMasterAssetFolderAssets386 | StudioProjectWorkspaceMasterAssetFolderAssets387 | StudioProjectWorkspaceMasterAssetFolderAssets388 | StudioProjectWorkspaceMasterAssetFolderAssets389 | StudioProjectWorkspaceMasterAssetFolderAssets39 | StudioProjectWorkspaceMasterAssetFolderAssets390 | StudioProjectWorkspaceMasterAssetFolderAssets391 | StudioProjectWorkspaceMasterAssetFolderAssets392 | StudioProjectWorkspaceMasterAssetFolderAssets393 | StudioProjectWorkspaceMasterAssetFolderAssets394 | StudioProjectWorkspaceMasterAssetFolderAssets395 | StudioProjectWorkspaceMasterAssetFolderAssets396 | StudioProjectWorkspaceMasterAssetFolderAssets397 | StudioProjectWorkspaceMasterAssetFolderAssets398 | StudioProjectWorkspaceMasterAssetFolderAssets399 | StudioProjectWorkspaceMasterAssetFolderAssets4 | StudioProjectWorkspaceMasterAssetFolderAssets40 | StudioProjectWorkspaceMasterAssetFolderAssets400 | StudioProjectWorkspaceMasterAssetFolderAssets401 | StudioProjectWorkspaceMasterAssetFolderAssets402 | StudioProjectWorkspaceMasterAssetFolderAssets403 | StudioProjectWorkspaceMasterAssetFolderAssets404 | StudioProjectWorkspaceMasterAssetFolderAssets405 | StudioProjectWorkspaceMasterAssetFolderAssets406 | StudioProjectWorkspaceMasterAssetFolderAssets407 | StudioProjectWorkspaceMasterAssetFolderAssets408 | StudioProjectWorkspaceMasterAssetFolderAssets409 | StudioProjectWorkspaceMasterAssetFolderAssets41 | StudioProjectWorkspaceMasterAssetFolderAssets410 | StudioProjectWorkspaceMasterAssetFolderAssets411 | StudioProjectWorkspaceMasterAssetFolderAssets412 | StudioProjectWorkspaceMasterAssetFolderAssets413 | StudioProjectWorkspaceMasterAssetFolderAssets414 | StudioProjectWorkspaceMasterAssetFolderAssets415 | StudioProjectWorkspaceMasterAssetFolderAssets416 | StudioProjectWorkspaceMasterAssetFolderAssets417 | StudioProjectWorkspaceMasterAssetFolderAssets418 | StudioProjectWorkspaceMasterAssetFolderAssets419 | StudioProjectWorkspaceMasterAssetFolderAssets42 | StudioProjectWorkspaceMasterAssetFolderAssets420 | StudioProjectWorkspaceMasterAssetFolderAssets421 | StudioProjectWorkspaceMasterAssetFolderAssets422 | StudioProjectWorkspaceMasterAssetFolderAssets423 | StudioProjectWorkspaceMasterAssetFolderAssets424 | StudioProjectWorkspaceMasterAssetFolderAssets425 | StudioProjectWorkspaceMasterAssetFolderAssets426 | StudioProjectWorkspaceMasterAssetFolderAssets427 | StudioProjectWorkspaceMasterAssetFolderAssets428 | StudioProjectWorkspaceMasterAssetFolderAssets429 | StudioProjectWorkspaceMasterAssetFolderAssets43 | StudioProjectWorkspaceMasterAssetFolderAssets430 | StudioProjectWorkspaceMasterAssetFolderAssets431 | StudioProjectWorkspaceMasterAssetFolderAssets432 | StudioProjectWorkspaceMasterAssetFolderAssets433 | StudioProjectWorkspaceMasterAssetFolderAssets434 | StudioProjectWorkspaceMasterAssetFolderAssets435 | StudioProjectWorkspaceMasterAssetFolderAssets436 | StudioProjectWorkspaceMasterAssetFolderAssets437 | StudioProjectWorkspaceMasterAssetFolderAssets438 | StudioProjectWorkspaceMasterAssetFolderAssets439 | StudioProjectWorkspaceMasterAssetFolderAssets44 | StudioProjectWorkspaceMasterAssetFolderAssets440 | StudioProjectWorkspaceMasterAssetFolderAssets441 | StudioProjectWorkspaceMasterAssetFolderAssets442 | StudioProjectWorkspaceMasterAssetFolderAssets443 | StudioProjectWorkspaceMasterAssetFolderAssets444 | StudioProjectWorkspaceMasterAssetFolderAssets445 | StudioProjectWorkspaceMasterAssetFolderAssets446 | StudioProjectWorkspaceMasterAssetFolderAssets447 | StudioProjectWorkspaceMasterAssetFolderAssets448 | StudioProjectWorkspaceMasterAssetFolderAssets449 | StudioProjectWorkspaceMasterAssetFolderAssets45 | StudioProjectWorkspaceMasterAssetFolderAssets450 | StudioProjectWorkspaceMasterAssetFolderAssets451 | StudioProjectWorkspaceMasterAssetFolderAssets452 | StudioProjectWorkspaceMasterAssetFolderAssets453 | StudioProjectWorkspaceMasterAssetFolderAssets454 | StudioProjectWorkspaceMasterAssetFolderAssets455 | StudioProjectWorkspaceMasterAssetFolderAssets456 | StudioProjectWorkspaceMasterAssetFolderAssets457 | StudioProjectWorkspaceMasterAssetFolderAssets458 | StudioProjectWorkspaceMasterAssetFolderAssets459 | StudioProjectWorkspaceMasterAssetFolderAssets46 | StudioProjectWorkspaceMasterAssetFolderAssets460 | StudioProjectWorkspaceMasterAssetFolderAssets461 | StudioProjectWorkspaceMasterAssetFolderAssets462 | StudioProjectWorkspaceMasterAssetFolderAssets463 | StudioProjectWorkspaceMasterAssetFolderAssets464 | StudioProjectWorkspaceMasterAssetFolderAssets465 | StudioProjectWorkspaceMasterAssetFolderAssets466 | StudioProjectWorkspaceMasterAssetFolderAssets467 | StudioProjectWorkspaceMasterAssetFolderAssets468 | StudioProjectWorkspaceMasterAssetFolderAssets469 | StudioProjectWorkspaceMasterAssetFolderAssets47 | StudioProjectWorkspaceMasterAssetFolderAssets470 | StudioProjectWorkspaceMasterAssetFolderAssets471 | StudioProjectWorkspaceMasterAssetFolderAssets472 | StudioProjectWorkspaceMasterAssetFolderAssets473 | StudioProjectWorkspaceMasterAssetFolderAssets474 | StudioProjectWorkspaceMasterAssetFolderAssets475 | StudioProjectWorkspaceMasterAssetFolderAssets476 | StudioProjectWorkspaceMasterAssetFolderAssets477 | StudioProjectWorkspaceMasterAssetFolderAssets478 | StudioProjectWorkspaceMasterAssetFolderAssets479 | StudioProjectWorkspaceMasterAssetFolderAssets48 | StudioProjectWorkspaceMasterAssetFolderAssets480 | StudioProjectWorkspaceMasterAssetFolderAssets481 | StudioProjectWorkspaceMasterAssetFolderAssets482 | StudioProjectWorkspaceMasterAssetFolderAssets483 | StudioProjectWorkspaceMasterAssetFolderAssets484 | StudioProjectWorkspaceMasterAssetFolderAssets485 | StudioProjectWorkspaceMasterAssetFolderAssets486 | StudioProjectWorkspaceMasterAssetFolderAssets487 | StudioProjectWorkspaceMasterAssetFolderAssets488 | StudioProjectWorkspaceMasterAssetFolderAssets489 | StudioProjectWorkspaceMasterAssetFolderAssets49 | StudioProjectWorkspaceMasterAssetFolderAssets490 | StudioProjectWorkspaceMasterAssetFolderAssets491 | StudioProjectWorkspaceMasterAssetFolderAssets492 | StudioProjectWorkspaceMasterAssetFolderAssets493 | StudioProjectWorkspaceMasterAssetFolderAssets494 | StudioProjectWorkspaceMasterAssetFolderAssets495 | StudioProjectWorkspaceMasterAssetFolderAssets496 | StudioProjectWorkspaceMasterAssetFolderAssets497 | StudioProjectWorkspaceMasterAssetFolderAssets498 | StudioProjectWorkspaceMasterAssetFolderAssets499 | StudioProjectWorkspaceMasterAssetFolderAssets5 | StudioProjectWorkspaceMasterAssetFolderAssets50 | StudioProjectWorkspaceMasterAssetFolderAssets500 | StudioProjectWorkspaceMasterAssetFolderAssets501 | StudioProjectWorkspaceMasterAssetFolderAssets502 | StudioProjectWorkspaceMasterAssetFolderAssets503 | StudioProjectWorkspaceMasterAssetFolderAssets504 | StudioProjectWorkspaceMasterAssetFolderAssets505 | StudioProjectWorkspaceMasterAssetFolderAssets506 | StudioProjectWorkspaceMasterAssetFolderAssets507 | StudioProjectWorkspaceMasterAssetFolderAssets508 | StudioProjectWorkspaceMasterAssetFolderAssets509 | StudioProjectWorkspaceMasterAssetFolderAssets51 | StudioProjectWorkspaceMasterAssetFolderAssets510 | StudioProjectWorkspaceMasterAssetFolderAssets511 | StudioProjectWorkspaceMasterAssetFolderAssets512 | StudioProjectWorkspaceMasterAssetFolderAssets513 | StudioProjectWorkspaceMasterAssetFolderAssets514 | StudioProjectWorkspaceMasterAssetFolderAssets515 | StudioProjectWorkspaceMasterAssetFolderAssets516 | StudioProjectWorkspaceMasterAssetFolderAssets517 | StudioProjectWorkspaceMasterAssetFolderAssets518 | StudioProjectWorkspaceMasterAssetFolderAssets519 | StudioProjectWorkspaceMasterAssetFolderAssets52 | StudioProjectWorkspaceMasterAssetFolderAssets520 | StudioProjectWorkspaceMasterAssetFolderAssets521 | StudioProjectWorkspaceMasterAssetFolderAssets522 | StudioProjectWorkspaceMasterAssetFolderAssets523 | StudioProjectWorkspaceMasterAssetFolderAssets524 | StudioProjectWorkspaceMasterAssetFolderAssets525 | StudioProjectWorkspaceMasterAssetFolderAssets526 | StudioProjectWorkspaceMasterAssetFolderAssets527 | StudioProjectWorkspaceMasterAssetFolderAssets528 | StudioProjectWorkspaceMasterAssetFolderAssets529 | StudioProjectWorkspaceMasterAssetFolderAssets53 | StudioProjectWorkspaceMasterAssetFolderAssets530 | StudioProjectWorkspaceMasterAssetFolderAssets531 | StudioProjectWorkspaceMasterAssetFolderAssets532 | StudioProjectWorkspaceMasterAssetFolderAssets533 | StudioProjectWorkspaceMasterAssetFolderAssets534 | StudioProjectWorkspaceMasterAssetFolderAssets535 | StudioProjectWorkspaceMasterAssetFolderAssets536 | StudioProjectWorkspaceMasterAssetFolderAssets537 | StudioProjectWorkspaceMasterAssetFolderAssets538 | StudioProjectWorkspaceMasterAssetFolderAssets539 | StudioProjectWorkspaceMasterAssetFolderAssets54 | StudioProjectWorkspaceMasterAssetFolderAssets540 | StudioProjectWorkspaceMasterAssetFolderAssets541 | StudioProjectWorkspaceMasterAssetFolderAssets542 | StudioProjectWorkspaceMasterAssetFolderAssets543 | StudioProjectWorkspaceMasterAssetFolderAssets544 | StudioProjectWorkspaceMasterAssetFolderAssets545 | StudioProjectWorkspaceMasterAssetFolderAssets546 | StudioProjectWorkspaceMasterAssetFolderAssets547 | StudioProjectWorkspaceMasterAssetFolderAssets548 | StudioProjectWorkspaceMasterAssetFolderAssets549 | StudioProjectWorkspaceMasterAssetFolderAssets55 | StudioProjectWorkspaceMasterAssetFolderAssets550 | StudioProjectWorkspaceMasterAssetFolderAssets551 | StudioProjectWorkspaceMasterAssetFolderAssets552 | StudioProjectWorkspaceMasterAssetFolderAssets553 | StudioProjectWorkspaceMasterAssetFolderAssets554 | StudioProjectWorkspaceMasterAssetFolderAssets555 | StudioProjectWorkspaceMasterAssetFolderAssets556 | StudioProjectWorkspaceMasterAssetFolderAssets557 | StudioProjectWorkspaceMasterAssetFolderAssets558 | StudioProjectWorkspaceMasterAssetFolderAssets559 | StudioProjectWorkspaceMasterAssetFolderAssets56 | StudioProjectWorkspaceMasterAssetFolderAssets560 | StudioProjectWorkspaceMasterAssetFolderAssets561 | StudioProjectWorkspaceMasterAssetFolderAssets562 | StudioProjectWorkspaceMasterAssetFolderAssets563 | StudioProjectWorkspaceMasterAssetFolderAssets564 | StudioProjectWorkspaceMasterAssetFolderAssets565 | StudioProjectWorkspaceMasterAssetFolderAssets566 | StudioProjectWorkspaceMasterAssetFolderAssets567 | StudioProjectWorkspaceMasterAssetFolderAssets568 | StudioProjectWorkspaceMasterAssetFolderAssets569 | StudioProjectWorkspaceMasterAssetFolderAssets57 | StudioProjectWorkspaceMasterAssetFolderAssets570 | StudioProjectWorkspaceMasterAssetFolderAssets571 | StudioProjectWorkspaceMasterAssetFolderAssets572 | StudioProjectWorkspaceMasterAssetFolderAssets573 | StudioProjectWorkspaceMasterAssetFolderAssets574 | StudioProjectWorkspaceMasterAssetFolderAssets575 | StudioProjectWorkspaceMasterAssetFolderAssets576 | StudioProjectWorkspaceMasterAssetFolderAssets577 | StudioProjectWorkspaceMasterAssetFolderAssets578 | StudioProjectWorkspaceMasterAssetFolderAssets579 | StudioProjectWorkspaceMasterAssetFolderAssets58 | StudioProjectWorkspaceMasterAssetFolderAssets580 | StudioProjectWorkspaceMasterAssetFolderAssets581 | StudioProjectWorkspaceMasterAssetFolderAssets582 | StudioProjectWorkspaceMasterAssetFolderAssets583 | StudioProjectWorkspaceMasterAssetFolderAssets584 | StudioProjectWorkspaceMasterAssetFolderAssets585 | StudioProjectWorkspaceMasterAssetFolderAssets586 | StudioProjectWorkspaceMasterAssetFolderAssets587 | StudioProjectWorkspaceMasterAssetFolderAssets588 | StudioProjectWorkspaceMasterAssetFolderAssets589 | StudioProjectWorkspaceMasterAssetFolderAssets59 | StudioProjectWorkspaceMasterAssetFolderAssets590 | StudioProjectWorkspaceMasterAssetFolderAssets591 | StudioProjectWorkspaceMasterAssetFolderAssets592 | StudioProjectWorkspaceMasterAssetFolderAssets593 | StudioProjectWorkspaceMasterAssetFolderAssets594 | StudioProjectWorkspaceMasterAssetFolderAssets595 | StudioProjectWorkspaceMasterAssetFolderAssets596 | StudioProjectWorkspaceMasterAssetFolderAssets597 | StudioProjectWorkspaceMasterAssetFolderAssets598 | StudioProjectWorkspaceMasterAssetFolderAssets599 | StudioProjectWorkspaceMasterAssetFolderAssets6 | StudioProjectWorkspaceMasterAssetFolderAssets60 | StudioProjectWorkspaceMasterAssetFolderAssets600 | StudioProjectWorkspaceMasterAssetFolderAssets601 | StudioProjectWorkspaceMasterAssetFolderAssets602 | StudioProjectWorkspaceMasterAssetFolderAssets603 | StudioProjectWorkspaceMasterAssetFolderAssets604 | StudioProjectWorkspaceMasterAssetFolderAssets605 | StudioProjectWorkspaceMasterAssetFolderAssets606 | StudioProjectWorkspaceMasterAssetFolderAssets607 | StudioProjectWorkspaceMasterAssetFolderAssets608 | StudioProjectWorkspaceMasterAssetFolderAssets609 | StudioProjectWorkspaceMasterAssetFolderAssets61 | StudioProjectWorkspaceMasterAssetFolderAssets610 | StudioProjectWorkspaceMasterAssetFolderAssets611 | StudioProjectWorkspaceMasterAssetFolderAssets612 | StudioProjectWorkspaceMasterAssetFolderAssets613 | StudioProjectWorkspaceMasterAssetFolderAssets614 | StudioProjectWorkspaceMasterAssetFolderAssets615 | StudioProjectWorkspaceMasterAssetFolderAssets616 | StudioProjectWorkspaceMasterAssetFolderAssets617 | StudioProjectWorkspaceMasterAssetFolderAssets618 | StudioProjectWorkspaceMasterAssetFolderAssets619 | StudioProjectWorkspaceMasterAssetFolderAssets62 | StudioProjectWorkspaceMasterAssetFolderAssets620 | StudioProjectWorkspaceMasterAssetFolderAssets621 | StudioProjectWorkspaceMasterAssetFolderAssets622 | StudioProjectWorkspaceMasterAssetFolderAssets623 | StudioProjectWorkspaceMasterAssetFolderAssets624 | StudioProjectWorkspaceMasterAssetFolderAssets625 | StudioProjectWorkspaceMasterAssetFolderAssets626 | StudioProjectWorkspaceMasterAssetFolderAssets627 | StudioProjectWorkspaceMasterAssetFolderAssets628 | StudioProjectWorkspaceMasterAssetFolderAssets629 | StudioProjectWorkspaceMasterAssetFolderAssets63 | StudioProjectWorkspaceMasterAssetFolderAssets630 | StudioProjectWorkspaceMasterAssetFolderAssets631 | StudioProjectWorkspaceMasterAssetFolderAssets632 | StudioProjectWorkspaceMasterAssetFolderAssets633 | StudioProjectWorkspaceMasterAssetFolderAssets634 | StudioProjectWorkspaceMasterAssetFolderAssets635 | StudioProjectWorkspaceMasterAssetFolderAssets636 | StudioProjectWorkspaceMasterAssetFolderAssets637 | StudioProjectWorkspaceMasterAssetFolderAssets638 | StudioProjectWorkspaceMasterAssetFolderAssets639 | StudioProjectWorkspaceMasterAssetFolderAssets64 | StudioProjectWorkspaceMasterAssetFolderAssets640 | StudioProjectWorkspaceMasterAssetFolderAssets641 | StudioProjectWorkspaceMasterAssetFolderAssets642 | StudioProjectWorkspaceMasterAssetFolderAssets643 | StudioProjectWorkspaceMasterAssetFolderAssets644 | StudioProjectWorkspaceMasterAssetFolderAssets645 | StudioProjectWorkspaceMasterAssetFolderAssets646 | StudioProjectWorkspaceMasterAssetFolderAssets647 | StudioProjectWorkspaceMasterAssetFolderAssets648 | StudioProjectWorkspaceMasterAssetFolderAssets649 | StudioProjectWorkspaceMasterAssetFolderAssets65 | StudioProjectWorkspaceMasterAssetFolderAssets650 | StudioProjectWorkspaceMasterAssetFolderAssets651 | StudioProjectWorkspaceMasterAssetFolderAssets652 | StudioProjectWorkspaceMasterAssetFolderAssets653 | StudioProjectWorkspaceMasterAssetFolderAssets654 | StudioProjectWorkspaceMasterAssetFolderAssets655 | StudioProjectWorkspaceMasterAssetFolderAssets656 | StudioProjectWorkspaceMasterAssetFolderAssets657 | StudioProjectWorkspaceMasterAssetFolderAssets658 | StudioProjectWorkspaceMasterAssetFolderAssets659 | StudioProjectWorkspaceMasterAssetFolderAssets66 | StudioProjectWorkspaceMasterAssetFolderAssets660 | StudioProjectWorkspaceMasterAssetFolderAssets661 | StudioProjectWorkspaceMasterAssetFolderAssets662 | StudioProjectWorkspaceMasterAssetFolderAssets663 | StudioProjectWorkspaceMasterAssetFolderAssets664 | StudioProjectWorkspaceMasterAssetFolderAssets665 | StudioProjectWorkspaceMasterAssetFolderAssets666 | StudioProjectWorkspaceMasterAssetFolderAssets667 | StudioProjectWorkspaceMasterAssetFolderAssets668 | StudioProjectWorkspaceMasterAssetFolderAssets669 | StudioProjectWorkspaceMasterAssetFolderAssets67 | StudioProjectWorkspaceMasterAssetFolderAssets670 | StudioProjectWorkspaceMasterAssetFolderAssets671 | StudioProjectWorkspaceMasterAssetFolderAssets672 | StudioProjectWorkspaceMasterAssetFolderAssets673 | StudioProjectWorkspaceMasterAssetFolderAssets674 | StudioProjectWorkspaceMasterAssetFolderAssets675 | StudioProjectWorkspaceMasterAssetFolderAssets676 | StudioProjectWorkspaceMasterAssetFolderAssets677 | StudioProjectWorkspaceMasterAssetFolderAssets678 | StudioProjectWorkspaceMasterAssetFolderAssets679 | StudioProjectWorkspaceMasterAssetFolderAssets68 | StudioProjectWorkspaceMasterAssetFolderAssets680 | StudioProjectWorkspaceMasterAssetFolderAssets681 | StudioProjectWorkspaceMasterAssetFolderAssets682 | StudioProjectWorkspaceMasterAssetFolderAssets683 | StudioProjectWorkspaceMasterAssetFolderAssets684 | StudioProjectWorkspaceMasterAssetFolderAssets685 | StudioProjectWorkspaceMasterAssetFolderAssets686 | StudioProjectWorkspaceMasterAssetFolderAssets687 | StudioProjectWorkspaceMasterAssetFolderAssets688 | StudioProjectWorkspaceMasterAssetFolderAssets689 | StudioProjectWorkspaceMasterAssetFolderAssets69 | StudioProjectWorkspaceMasterAssetFolderAssets690 | StudioProjectWorkspaceMasterAssetFolderAssets691 | StudioProjectWorkspaceMasterAssetFolderAssets692 | StudioProjectWorkspaceMasterAssetFolderAssets693 | StudioProjectWorkspaceMasterAssetFolderAssets694 | StudioProjectWorkspaceMasterAssetFolderAssets695 | StudioProjectWorkspaceMasterAssetFolderAssets696 | StudioProjectWorkspaceMasterAssetFolderAssets697 | StudioProjectWorkspaceMasterAssetFolderAssets698 | StudioProjectWorkspaceMasterAssetFolderAssets699 | StudioProjectWorkspaceMasterAssetFolderAssets7 | StudioProjectWorkspaceMasterAssetFolderAssets70 | StudioProjectWorkspaceMasterAssetFolderAssets700 | StudioProjectWorkspaceMasterAssetFolderAssets701 | StudioProjectWorkspaceMasterAssetFolderAssets702 | StudioProjectWorkspaceMasterAssetFolderAssets703 | StudioProjectWorkspaceMasterAssetFolderAssets704 | StudioProjectWorkspaceMasterAssetFolderAssets705 | StudioProjectWorkspaceMasterAssetFolderAssets706 | StudioProjectWorkspaceMasterAssetFolderAssets707 | StudioProjectWorkspaceMasterAssetFolderAssets708 | StudioProjectWorkspaceMasterAssetFolderAssets709 | StudioProjectWorkspaceMasterAssetFolderAssets71 | StudioProjectWorkspaceMasterAssetFolderAssets710 | StudioProjectWorkspaceMasterAssetFolderAssets711 | StudioProjectWorkspaceMasterAssetFolderAssets712 | StudioProjectWorkspaceMasterAssetFolderAssets713 | StudioProjectWorkspaceMasterAssetFolderAssets714 | StudioProjectWorkspaceMasterAssetFolderAssets715 | StudioProjectWorkspaceMasterAssetFolderAssets716 | StudioProjectWorkspaceMasterAssetFolderAssets717 | StudioProjectWorkspaceMasterAssetFolderAssets718 | StudioProjectWorkspaceMasterAssetFolderAssets719 | StudioProjectWorkspaceMasterAssetFolderAssets72 | StudioProjectWorkspaceMasterAssetFolderAssets720 | StudioProjectWorkspaceMasterAssetFolderAssets721 | StudioProjectWorkspaceMasterAssetFolderAssets722 | StudioProjectWorkspaceMasterAssetFolderAssets723 | StudioProjectWorkspaceMasterAssetFolderAssets724 | StudioProjectWorkspaceMasterAssetFolderAssets725 | StudioProjectWorkspaceMasterAssetFolderAssets726 | StudioProjectWorkspaceMasterAssetFolderAssets727 | StudioProjectWorkspaceMasterAssetFolderAssets728 | StudioProjectWorkspaceMasterAssetFolderAssets729 | StudioProjectWorkspaceMasterAssetFolderAssets73 | StudioProjectWorkspaceMasterAssetFolderAssets730 | StudioProjectWorkspaceMasterAssetFolderAssets731 | StudioProjectWorkspaceMasterAssetFolderAssets732 | StudioProjectWorkspaceMasterAssetFolderAssets733 | StudioProjectWorkspaceMasterAssetFolderAssets734 | StudioProjectWorkspaceMasterAssetFolderAssets735 | StudioProjectWorkspaceMasterAssetFolderAssets736 | StudioProjectWorkspaceMasterAssetFolderAssets737 | StudioProjectWorkspaceMasterAssetFolderAssets738 | StudioProjectWorkspaceMasterAssetFolderAssets739 | StudioProjectWorkspaceMasterAssetFolderAssets74 | StudioProjectWorkspaceMasterAssetFolderAssets740 | StudioProjectWorkspaceMasterAssetFolderAssets741 | StudioProjectWorkspaceMasterAssetFolderAssets742 | StudioProjectWorkspaceMasterAssetFolderAssets743 | StudioProjectWorkspaceMasterAssetFolderAssets744 | StudioProjectWorkspaceMasterAssetFolderAssets745 | StudioProjectWorkspaceMasterAssetFolderAssets746 | StudioProjectWorkspaceMasterAssetFolderAssets747 | StudioProjectWorkspaceMasterAssetFolderAssets748 | StudioProjectWorkspaceMasterAssetFolderAssets749 | StudioProjectWorkspaceMasterAssetFolderAssets75 | StudioProjectWorkspaceMasterAssetFolderAssets750 | StudioProjectWorkspaceMasterAssetFolderAssets751 | StudioProjectWorkspaceMasterAssetFolderAssets752 | StudioProjectWorkspaceMasterAssetFolderAssets753 | StudioProjectWorkspaceMasterAssetFolderAssets754 | StudioProjectWorkspaceMasterAssetFolderAssets755 | StudioProjectWorkspaceMasterAssetFolderAssets756 | StudioProjectWorkspaceMasterAssetFolderAssets757 | StudioProjectWorkspaceMasterAssetFolderAssets758 | StudioProjectWorkspaceMasterAssetFolderAssets759 | StudioProjectWorkspaceMasterAssetFolderAssets76 | StudioProjectWorkspaceMasterAssetFolderAssets760 | StudioProjectWorkspaceMasterAssetFolderAssets761 | StudioProjectWorkspaceMasterAssetFolderAssets762 | StudioProjectWorkspaceMasterAssetFolderAssets763 | StudioProjectWorkspaceMasterAssetFolderAssets764 | StudioProjectWorkspaceMasterAssetFolderAssets765 | StudioProjectWorkspaceMasterAssetFolderAssets766 | StudioProjectWorkspaceMasterAssetFolderAssets767 | StudioProjectWorkspaceMasterAssetFolderAssets768 | StudioProjectWorkspaceMasterAssetFolderAssets769 | StudioProjectWorkspaceMasterAssetFolderAssets77 | StudioProjectWorkspaceMasterAssetFolderAssets770 | StudioProjectWorkspaceMasterAssetFolderAssets771 | StudioProjectWorkspaceMasterAssetFolderAssets772 | StudioProjectWorkspaceMasterAssetFolderAssets773 | StudioProjectWorkspaceMasterAssetFolderAssets774 | StudioProjectWorkspaceMasterAssetFolderAssets775 | StudioProjectWorkspaceMasterAssetFolderAssets776 | StudioProjectWorkspaceMasterAssetFolderAssets777 | StudioProjectWorkspaceMasterAssetFolderAssets778 | StudioProjectWorkspaceMasterAssetFolderAssets779 | StudioProjectWorkspaceMasterAssetFolderAssets78 | StudioProjectWorkspaceMasterAssetFolderAssets780 | StudioProjectWorkspaceMasterAssetFolderAssets781 | StudioProjectWorkspaceMasterAssetFolderAssets782 | StudioProjectWorkspaceMasterAssetFolderAssets783 | StudioProjectWorkspaceMasterAssetFolderAssets784 | StudioProjectWorkspaceMasterAssetFolderAssets785 | StudioProjectWorkspaceMasterAssetFolderAssets786 | StudioProjectWorkspaceMasterAssetFolderAssets787 | StudioProjectWorkspaceMasterAssetFolderAssets788 | StudioProjectWorkspaceMasterAssetFolderAssets789 | StudioProjectWorkspaceMasterAssetFolderAssets79 | StudioProjectWorkspaceMasterAssetFolderAssets790 | StudioProjectWorkspaceMasterAssetFolderAssets791 | StudioProjectWorkspaceMasterAssetFolderAssets792 | StudioProjectWorkspaceMasterAssetFolderAssets793 | StudioProjectWorkspaceMasterAssetFolderAssets794 | StudioProjectWorkspaceMasterAssetFolderAssets795 | StudioProjectWorkspaceMasterAssetFolderAssets796 | StudioProjectWorkspaceMasterAssetFolderAssets797 | StudioProjectWorkspaceMasterAssetFolderAssets798 | StudioProjectWorkspaceMasterAssetFolderAssets799 | StudioProjectWorkspaceMasterAssetFolderAssets8 | StudioProjectWorkspaceMasterAssetFolderAssets80 | StudioProjectWorkspaceMasterAssetFolderAssets800 | StudioProjectWorkspaceMasterAssetFolderAssets801 | StudioProjectWorkspaceMasterAssetFolderAssets802 | StudioProjectWorkspaceMasterAssetFolderAssets803 | StudioProjectWorkspaceMasterAssetFolderAssets804 | StudioProjectWorkspaceMasterAssetFolderAssets805 | StudioProjectWorkspaceMasterAssetFolderAssets806 | StudioProjectWorkspaceMasterAssetFolderAssets807 | StudioProjectWorkspaceMasterAssetFolderAssets808 | StudioProjectWorkspaceMasterAssetFolderAssets809 | StudioProjectWorkspaceMasterAssetFolderAssets81 | StudioProjectWorkspaceMasterAssetFolderAssets810 | StudioProjectWorkspaceMasterAssetFolderAssets811 | StudioProjectWorkspaceMasterAssetFolderAssets812 | StudioProjectWorkspaceMasterAssetFolderAssets813 | StudioProjectWorkspaceMasterAssetFolderAssets814 | StudioProjectWorkspaceMasterAssetFolderAssets815 | StudioProjectWorkspaceMasterAssetFolderAssets816 | StudioProjectWorkspaceMasterAssetFolderAssets817 | StudioProjectWorkspaceMasterAssetFolderAssets818 | StudioProjectWorkspaceMasterAssetFolderAssets819 | StudioProjectWorkspaceMasterAssetFolderAssets82 | StudioProjectWorkspaceMasterAssetFolderAssets820 | StudioProjectWorkspaceMasterAssetFolderAssets821 | StudioProjectWorkspaceMasterAssetFolderAssets822 | StudioProjectWorkspaceMasterAssetFolderAssets823 | StudioProjectWorkspaceMasterAssetFolderAssets824 | StudioProjectWorkspaceMasterAssetFolderAssets825 | StudioProjectWorkspaceMasterAssetFolderAssets826 | StudioProjectWorkspaceMasterAssetFolderAssets827 | StudioProjectWorkspaceMasterAssetFolderAssets828 | StudioProjectWorkspaceMasterAssetFolderAssets829 | StudioProjectWorkspaceMasterAssetFolderAssets83 | StudioProjectWorkspaceMasterAssetFolderAssets830 | StudioProjectWorkspaceMasterAssetFolderAssets831 | StudioProjectWorkspaceMasterAssetFolderAssets832 | StudioProjectWorkspaceMasterAssetFolderAssets833 | StudioProjectWorkspaceMasterAssetFolderAssets834 | StudioProjectWorkspaceMasterAssetFolderAssets835 | StudioProjectWorkspaceMasterAssetFolderAssets836 | StudioProjectWorkspaceMasterAssetFolderAssets837 | StudioProjectWorkspaceMasterAssetFolderAssets838 | StudioProjectWorkspaceMasterAssetFolderAssets839 | StudioProjectWorkspaceMasterAssetFolderAssets84 | StudioProjectWorkspaceMasterAssetFolderAssets840 | StudioProjectWorkspaceMasterAssetFolderAssets841 | StudioProjectWorkspaceMasterAssetFolderAssets842 | StudioProjectWorkspaceMasterAssetFolderAssets843 | StudioProjectWorkspaceMasterAssetFolderAssets844 | StudioProjectWorkspaceMasterAssetFolderAssets845 | StudioProjectWorkspaceMasterAssetFolderAssets846 | StudioProjectWorkspaceMasterAssetFolderAssets847 | StudioProjectWorkspaceMasterAssetFolderAssets848 | StudioProjectWorkspaceMasterAssetFolderAssets849 | StudioProjectWorkspaceMasterAssetFolderAssets85 | StudioProjectWorkspaceMasterAssetFolderAssets850 | StudioProjectWorkspaceMasterAssetFolderAssets851 | StudioProjectWorkspaceMasterAssetFolderAssets852 | StudioProjectWorkspaceMasterAssetFolderAssets853 | StudioProjectWorkspaceMasterAssetFolderAssets854 | StudioProjectWorkspaceMasterAssetFolderAssets855 | StudioProjectWorkspaceMasterAssetFolderAssets856 | StudioProjectWorkspaceMasterAssetFolderAssets857 | StudioProjectWorkspaceMasterAssetFolderAssets858 | StudioProjectWorkspaceMasterAssetFolderAssets859 | StudioProjectWorkspaceMasterAssetFolderAssets86 | StudioProjectWorkspaceMasterAssetFolderAssets860 | StudioProjectWorkspaceMasterAssetFolderAssets861 | StudioProjectWorkspaceMasterAssetFolderAssets862 | StudioProjectWorkspaceMasterAssetFolderAssets863 | StudioProjectWorkspaceMasterAssetFolderAssets864 | StudioProjectWorkspaceMasterAssetFolderAssets865 | StudioProjectWorkspaceMasterAssetFolderAssets866 | StudioProjectWorkspaceMasterAssetFolderAssets867 | StudioProjectWorkspaceMasterAssetFolderAssets868 | StudioProjectWorkspaceMasterAssetFolderAssets869 | StudioProjectWorkspaceMasterAssetFolderAssets87 | StudioProjectWorkspaceMasterAssetFolderAssets870 | StudioProjectWorkspaceMasterAssetFolderAssets871 | StudioProjectWorkspaceMasterAssetFolderAssets872 | StudioProjectWorkspaceMasterAssetFolderAssets873 | StudioProjectWorkspaceMasterAssetFolderAssets874 | StudioProjectWorkspaceMasterAssetFolderAssets875 | StudioProjectWorkspaceMasterAssetFolderAssets876 | StudioProjectWorkspaceMasterAssetFolderAssets877 | StudioProjectWorkspaceMasterAssetFolderAssets878 | StudioProjectWorkspaceMasterAssetFolderAssets879 | StudioProjectWorkspaceMasterAssetFolderAssets88 | StudioProjectWorkspaceMasterAssetFolderAssets880 | StudioProjectWorkspaceMasterAssetFolderAssets881 | StudioProjectWorkspaceMasterAssetFolderAssets882 | StudioProjectWorkspaceMasterAssetFolderAssets883 | StudioProjectWorkspaceMasterAssetFolderAssets884 | StudioProjectWorkspaceMasterAssetFolderAssets885 | StudioProjectWorkspaceMasterAssetFolderAssets886 | StudioProjectWorkspaceMasterAssetFolderAssets887 | StudioProjectWorkspaceMasterAssetFolderAssets888 | StudioProjectWorkspaceMasterAssetFolderAssets889 | StudioProjectWorkspaceMasterAssetFolderAssets89 | StudioProjectWorkspaceMasterAssetFolderAssets890 | StudioProjectWorkspaceMasterAssetFolderAssets891 | StudioProjectWorkspaceMasterAssetFolderAssets892 | StudioProjectWorkspaceMasterAssetFolderAssets893 | StudioProjectWorkspaceMasterAssetFolderAssets894 | StudioProjectWorkspaceMasterAssetFolderAssets895 | StudioProjectWorkspaceMasterAssetFolderAssets896 | StudioProjectWorkspaceMasterAssetFolderAssets897 | StudioProjectWorkspaceMasterAssetFolderAssets898 | StudioProjectWorkspaceMasterAssetFolderAssets899 | StudioProjectWorkspaceMasterAssetFolderAssets9 | StudioProjectWorkspaceMasterAssetFolderAssets90 | StudioProjectWorkspaceMasterAssetFolderAssets900 | StudioProjectWorkspaceMasterAssetFolderAssets901 | StudioProjectWorkspaceMasterAssetFolderAssets902 | StudioProjectWorkspaceMasterAssetFolderAssets903 | StudioProjectWorkspaceMasterAssetFolderAssets904 | StudioProjectWorkspaceMasterAssetFolderAssets905 | StudioProjectWorkspaceMasterAssetFolderAssets906 | StudioProjectWorkspaceMasterAssetFolderAssets907 | StudioProjectWorkspaceMasterAssetFolderAssets908 | StudioProjectWorkspaceMasterAssetFolderAssets909 | StudioProjectWorkspaceMasterAssetFolderAssets91 | StudioProjectWorkspaceMasterAssetFolderAssets910 | StudioProjectWorkspaceMasterAssetFolderAssets911 | StudioProjectWorkspaceMasterAssetFolderAssets912 | StudioProjectWorkspaceMasterAssetFolderAssets913 | StudioProjectWorkspaceMasterAssetFolderAssets914 | StudioProjectWorkspaceMasterAssetFolderAssets915 | StudioProjectWorkspaceMasterAssetFolderAssets916 | StudioProjectWorkspaceMasterAssetFolderAssets917 | StudioProjectWorkspaceMasterAssetFolderAssets918 | StudioProjectWorkspaceMasterAssetFolderAssets919 | StudioProjectWorkspaceMasterAssetFolderAssets92 | StudioProjectWorkspaceMasterAssetFolderAssets920 | StudioProjectWorkspaceMasterAssetFolderAssets921 | StudioProjectWorkspaceMasterAssetFolderAssets922 | StudioProjectWorkspaceMasterAssetFolderAssets923 | StudioProjectWorkspaceMasterAssetFolderAssets924 | StudioProjectWorkspaceMasterAssetFolderAssets925 | StudioProjectWorkspaceMasterAssetFolderAssets926 | StudioProjectWorkspaceMasterAssetFolderAssets927 | StudioProjectWorkspaceMasterAssetFolderAssets928 | StudioProjectWorkspaceMasterAssetFolderAssets929 | StudioProjectWorkspaceMasterAssetFolderAssets93 | StudioProjectWorkspaceMasterAssetFolderAssets930 | StudioProjectWorkspaceMasterAssetFolderAssets931 | StudioProjectWorkspaceMasterAssetFolderAssets932 | StudioProjectWorkspaceMasterAssetFolderAssets933 | StudioProjectWorkspaceMasterAssetFolderAssets934 | StudioProjectWorkspaceMasterAssetFolderAssets935 | StudioProjectWorkspaceMasterAssetFolderAssets936 | StudioProjectWorkspaceMasterAssetFolderAssets937 | StudioProjectWorkspaceMasterAssetFolderAssets938 | StudioProjectWorkspaceMasterAssetFolderAssets939 | StudioProjectWorkspaceMasterAssetFolderAssets94 | StudioProjectWorkspaceMasterAssetFolderAssets940 | StudioProjectWorkspaceMasterAssetFolderAssets941 | StudioProjectWorkspaceMasterAssetFolderAssets942 | StudioProjectWorkspaceMasterAssetFolderAssets943 | StudioProjectWorkspaceMasterAssetFolderAssets944 | StudioProjectWorkspaceMasterAssetFolderAssets945 | StudioProjectWorkspaceMasterAssetFolderAssets946 | StudioProjectWorkspaceMasterAssetFolderAssets947 | StudioProjectWorkspaceMasterAssetFolderAssets948 | StudioProjectWorkspaceMasterAssetFolderAssets949 | StudioProjectWorkspaceMasterAssetFolderAssets95 | StudioProjectWorkspaceMasterAssetFolderAssets950 | StudioProjectWorkspaceMasterAssetFolderAssets951 | StudioProjectWorkspaceMasterAssetFolderAssets952 | StudioProjectWorkspaceMasterAssetFolderAssets953 | StudioProjectWorkspaceMasterAssetFolderAssets954 | StudioProjectWorkspaceMasterAssetFolderAssets955 | StudioProjectWorkspaceMasterAssetFolderAssets956 | StudioProjectWorkspaceMasterAssetFolderAssets957 | StudioProjectWorkspaceMasterAssetFolderAssets958 | StudioProjectWorkspaceMasterAssetFolderAssets959 | StudioProjectWorkspaceMasterAssetFolderAssets96 | StudioProjectWorkspaceMasterAssetFolderAssets960 | StudioProjectWorkspaceMasterAssetFolderAssets961 | StudioProjectWorkspaceMasterAssetFolderAssets962 | StudioProjectWorkspaceMasterAssetFolderAssets963 | StudioProjectWorkspaceMasterAssetFolderAssets964 | StudioProjectWorkspaceMasterAssetFolderAssets965 | StudioProjectWorkspaceMasterAssetFolderAssets966 | StudioProjectWorkspaceMasterAssetFolderAssets967 | StudioProjectWorkspaceMasterAssetFolderAssets968 | StudioProjectWorkspaceMasterAssetFolderAssets969 | StudioProjectWorkspaceMasterAssetFolderAssets97 | StudioProjectWorkspaceMasterAssetFolderAssets970 | StudioProjectWorkspaceMasterAssetFolderAssets971 | StudioProjectWorkspaceMasterAssetFolderAssets972 | StudioProjectWorkspaceMasterAssetFolderAssets973 | StudioProjectWorkspaceMasterAssetFolderAssets974 | StudioProjectWorkspaceMasterAssetFolderAssets975 | StudioProjectWorkspaceMasterAssetFolderAssets976 | StudioProjectWorkspaceMasterAssetFolderAssets977 | StudioProjectWorkspaceMasterAssetFolderAssets978 | StudioProjectWorkspaceMasterAssetFolderAssets979 | StudioProjectWorkspaceMasterAssetFolderAssets98 | StudioProjectWorkspaceMasterAssetFolderAssets980 | StudioProjectWorkspaceMasterAssetFolderAssets981 | StudioProjectWorkspaceMasterAssetFolderAssets982 | StudioProjectWorkspaceMasterAssetFolderAssets983 | StudioProjectWorkspaceMasterAssetFolderAssets984 | StudioProjectWorkspaceMasterAssetFolderAssets985 | StudioProjectWorkspaceMasterAssetFolderAssets986 | StudioProjectWorkspaceMasterAssetFolderAssets987 | StudioProjectWorkspaceMasterAssetFolderAssets988 | StudioProjectWorkspaceMasterAssetFolderAssets989 | StudioProjectWorkspaceMasterAssetFolderAssets99 | StudioProjectWorkspaceMasterAssetFolderAssets990 | StudioProjectWorkspaceMasterAssetFolderAssets991 | StudioProjectWorkspaceMasterAssetFolderAssets992 | StudioProjectWorkspaceMasterAssetFolderAssets993 | StudioProjectWorkspaceMasterAssetFolderAssets994 | StudioProjectWorkspaceMasterAssetFolderAssets995 | StudioProjectWorkspaceMasterAssetFolderAssets996 | StudioProjectWorkspaceMasterAssetFolderAssets997 | StudioProjectWorkspaceMasterAssetFolderAssets998 | StudioProjectWorkspaceMasterAssetFolderAssets999;
     "0": StudioProjectWorkspaceMasterAssetFolderAssets0;
     "1000": StudioProjectWorkspaceMasterAssetFolderAssets1000;
     "1001": StudioProjectWorkspaceMasterAssetFolderAssets1001;
@@ -123358,6 +123569,7 @@ interface StudioProjectWorkspaceMasterAssetFolderWorkspaceIsOfTypePrototype {
 
 /** @fmod-object-id 23224 @fmod-path "studio.project.workspace.masterAssetFolder.workspace.locales" */
 interface StudioProjectWorkspaceMasterAssetFolderWorkspaceLocales {
+    [index: number]: StudioProjectWorkspaceMasterAssetFolderWorkspaceLocales0 | StudioProjectWorkspaceMasterAssetFolderWorkspaceLocales1;
     "0": StudioProjectWorkspaceMasterAssetFolderWorkspaceLocales0;
     "1": StudioProjectWorkspaceMasterAssetFolderWorkspaceLocales1;
     length: number;
@@ -123858,6 +124070,7 @@ interface StudioProjectWorkspaceMasterAssetFolderWorkspaceMixer_reload {
 
 /** @fmod-object-id 23219 @fmod-path "studio.project.workspace.masterAssetFolder.workspace.platforms" */
 interface StudioProjectWorkspaceMasterAssetFolderWorkspacePlatforms {
+    [index: number]: StudioProjectWorkspaceMasterAssetFolderWorkspacePlatforms0 | StudioProjectWorkspaceMasterAssetFolderWorkspacePlatforms1 | StudioProjectWorkspaceMasterAssetFolderWorkspacePlatforms2 | StudioProjectWorkspaceMasterAssetFolderWorkspacePlatforms3;
     "0": StudioProjectWorkspaceMasterAssetFolderWorkspacePlatforms0;
     "1": StudioProjectWorkspaceMasterAssetFolderWorkspacePlatforms1;
     "2": StudioProjectWorkspaceMasterAssetFolderWorkspacePlatforms2;
@@ -124262,6 +124475,7 @@ interface StudioProjectWorkspaceMasterBankFolderIsOfTypePrototype {
 
 /** @fmod-object-id 6386 @fmod-path "studio.project.workspace.masterBankFolder.items" */
 interface StudioProjectWorkspaceMasterBankFolderItems {
+    [index: number]: StudioProjectWorkspaceMasterBankFolderItems0 | StudioProjectWorkspaceMasterBankFolderItems1 | StudioProjectWorkspaceMasterBankFolderItems2 | StudioProjectWorkspaceMasterBankFolderItems3 | StudioProjectWorkspaceMasterBankFolderItems4 | StudioProjectWorkspaceMasterBankFolderItems5;
     "0": StudioProjectWorkspaceMasterBankFolderItems0;
     "1": StudioProjectWorkspaceMasterBankFolderItems1;
     "2": StudioProjectWorkspaceMasterBankFolderItems2;
@@ -125017,6 +125231,7 @@ interface StudioProjectWorkspaceMasterBankFolderWorkspaceIsOfTypePrototype {
 
 /** @fmod-object-id 6612 @fmod-path "studio.project.workspace.masterBankFolder.workspace.locales" */
 interface StudioProjectWorkspaceMasterBankFolderWorkspaceLocales {
+    [index: number]: StudioProjectWorkspaceMasterBankFolderWorkspaceLocales0 | StudioProjectWorkspaceMasterBankFolderWorkspaceLocales1;
     "0": StudioProjectWorkspaceMasterBankFolderWorkspaceLocales0;
     "1": StudioProjectWorkspaceMasterBankFolderWorkspaceLocales1;
     length: number;
@@ -125517,6 +125732,7 @@ interface StudioProjectWorkspaceMasterBankFolderWorkspaceMixer_reload {
 
 /** @fmod-object-id 6607 @fmod-path "studio.project.workspace.masterBankFolder.workspace.platforms" */
 interface StudioProjectWorkspaceMasterBankFolderWorkspacePlatforms {
+    [index: number]: StudioProjectWorkspaceMasterBankFolderWorkspacePlatforms0 | StudioProjectWorkspaceMasterBankFolderWorkspacePlatforms1 | StudioProjectWorkspaceMasterBankFolderWorkspacePlatforms2 | StudioProjectWorkspaceMasterBankFolderWorkspacePlatforms3;
     "0": StudioProjectWorkspaceMasterBankFolderWorkspacePlatforms0;
     "1": StudioProjectWorkspaceMasterBankFolderWorkspacePlatforms1;
     "2": StudioProjectWorkspaceMasterBankFolderWorkspacePlatforms2;
@@ -125921,6 +126137,7 @@ interface StudioProjectWorkspaceMasterEffectPresetFolderIsOfTypePrototype {
 
 /** @fmod-object-id 5687 @fmod-path "studio.project.workspace.masterEffectPresetFolder.items" */
 interface StudioProjectWorkspaceMasterEffectPresetFolderItems {
+    [index: number]: StudioProjectWorkspaceMasterEffectPresetFolderItems0;
     "0": StudioProjectWorkspaceMasterEffectPresetFolderItems0;
     length: number;
 }
@@ -126387,6 +126604,7 @@ interface StudioProjectWorkspaceMasterEffectPresetFolderWorkspaceIsOfTypePrototy
 
 /** @fmod-object-id 5865 @fmod-path "studio.project.workspace.masterEffectPresetFolder.workspace.locales" */
 interface StudioProjectWorkspaceMasterEffectPresetFolderWorkspaceLocales {
+    [index: number]: StudioProjectWorkspaceMasterEffectPresetFolderWorkspaceLocales0 | StudioProjectWorkspaceMasterEffectPresetFolderWorkspaceLocales1;
     "0": StudioProjectWorkspaceMasterEffectPresetFolderWorkspaceLocales0;
     "1": StudioProjectWorkspaceMasterEffectPresetFolderWorkspaceLocales1;
     length: number;
@@ -126887,6 +127105,7 @@ interface StudioProjectWorkspaceMasterEffectPresetFolderWorkspaceMixer_reload {
 
 /** @fmod-object-id 5860 @fmod-path "studio.project.workspace.masterEffectPresetFolder.workspace.platforms" */
 interface StudioProjectWorkspaceMasterEffectPresetFolderWorkspacePlatforms {
+    [index: number]: StudioProjectWorkspaceMasterEffectPresetFolderWorkspacePlatforms0 | StudioProjectWorkspaceMasterEffectPresetFolderWorkspacePlatforms1 | StudioProjectWorkspaceMasterEffectPresetFolderWorkspacePlatforms2 | StudioProjectWorkspaceMasterEffectPresetFolderWorkspacePlatforms3;
     "0": StudioProjectWorkspaceMasterEffectPresetFolderWorkspacePlatforms0;
     "1": StudioProjectWorkspaceMasterEffectPresetFolderWorkspacePlatforms1;
     "2": StudioProjectWorkspaceMasterEffectPresetFolderWorkspacePlatforms2;
@@ -127291,6 +127510,7 @@ interface StudioProjectWorkspaceMasterEventFolderIsOfTypePrototype {
 
 /** @fmod-object-id 5139 @fmod-path "studio.project.workspace.masterEventFolder.items" */
 interface StudioProjectWorkspaceMasterEventFolderItems {
+    [index: number]: StudioProjectWorkspaceMasterEventFolderItems0 | StudioProjectWorkspaceMasterEventFolderItems1 | StudioProjectWorkspaceMasterEventFolderItems2 | StudioProjectWorkspaceMasterEventFolderItems3 | StudioProjectWorkspaceMasterEventFolderItems4;
     "0": StudioProjectWorkspaceMasterEventFolderItems0;
     "1": StudioProjectWorkspaceMasterEventFolderItems1;
     "2": StudioProjectWorkspaceMasterEventFolderItems2;
@@ -127980,6 +128200,7 @@ interface StudioProjectWorkspaceMasterEventFolderWorkspaceIsOfTypePrototype {
 
 /** @fmod-object-id 5355 @fmod-path "studio.project.workspace.masterEventFolder.workspace.locales" */
 interface StudioProjectWorkspaceMasterEventFolderWorkspaceLocales {
+    [index: number]: StudioProjectWorkspaceMasterEventFolderWorkspaceLocales0 | StudioProjectWorkspaceMasterEventFolderWorkspaceLocales1;
     "0": StudioProjectWorkspaceMasterEventFolderWorkspaceLocales0;
     "1": StudioProjectWorkspaceMasterEventFolderWorkspaceLocales1;
     length: number;
@@ -128480,6 +128701,7 @@ interface StudioProjectWorkspaceMasterEventFolderWorkspaceMixer_reload {
 
 /** @fmod-object-id 5350 @fmod-path "studio.project.workspace.masterEventFolder.workspace.platforms" */
 interface StudioProjectWorkspaceMasterEventFolderWorkspacePlatforms {
+    [index: number]: StudioProjectWorkspaceMasterEventFolderWorkspacePlatforms0 | StudioProjectWorkspaceMasterEventFolderWorkspacePlatforms1 | StudioProjectWorkspaceMasterEventFolderWorkspacePlatforms2 | StudioProjectWorkspaceMasterEventFolderWorkspacePlatforms3;
     "0": StudioProjectWorkspaceMasterEventFolderWorkspacePlatforms0;
     "1": StudioProjectWorkspaceMasterEventFolderWorkspacePlatforms1;
     "2": StudioProjectWorkspaceMasterEventFolderWorkspacePlatforms2;
@@ -128884,6 +129106,7 @@ interface StudioProjectWorkspaceMasterParameterPresetFolderIsOfTypePrototype {
 
 /** @fmod-object-id 5928 @fmod-path "studio.project.workspace.masterParameterPresetFolder.items" */
 interface StudioProjectWorkspaceMasterParameterPresetFolderItems {
+    [index: number]: StudioProjectWorkspaceMasterParameterPresetFolderItems0 | StudioProjectWorkspaceMasterParameterPresetFolderItems1 | StudioProjectWorkspaceMasterParameterPresetFolderItems10 | StudioProjectWorkspaceMasterParameterPresetFolderItems11 | StudioProjectWorkspaceMasterParameterPresetFolderItems12 | StudioProjectWorkspaceMasterParameterPresetFolderItems13 | StudioProjectWorkspaceMasterParameterPresetFolderItems14 | StudioProjectWorkspaceMasterParameterPresetFolderItems15 | StudioProjectWorkspaceMasterParameterPresetFolderItems16 | StudioProjectWorkspaceMasterParameterPresetFolderItems17 | StudioProjectWorkspaceMasterParameterPresetFolderItems18 | StudioProjectWorkspaceMasterParameterPresetFolderItems19 | StudioProjectWorkspaceMasterParameterPresetFolderItems2 | StudioProjectWorkspaceMasterParameterPresetFolderItems20 | StudioProjectWorkspaceMasterParameterPresetFolderItems21 | StudioProjectWorkspaceMasterParameterPresetFolderItems22 | StudioProjectWorkspaceMasterParameterPresetFolderItems3 | StudioProjectWorkspaceMasterParameterPresetFolderItems4 | StudioProjectWorkspaceMasterParameterPresetFolderItems5 | StudioProjectWorkspaceMasterParameterPresetFolderItems6 | StudioProjectWorkspaceMasterParameterPresetFolderItems7 | StudioProjectWorkspaceMasterParameterPresetFolderItems8 | StudioProjectWorkspaceMasterParameterPresetFolderItems9;
     "0": StudioProjectWorkspaceMasterParameterPresetFolderItems0;
     "10": StudioProjectWorkspaceMasterParameterPresetFolderItems10;
     "11": StudioProjectWorkspaceMasterParameterPresetFolderItems11;
@@ -130599,6 +130822,7 @@ interface StudioProjectWorkspaceMasterParameterPresetFolderWorkspaceIsOfTypeProt
 
 /** @fmod-object-id 6323 @fmod-path "studio.project.workspace.masterParameterPresetFolder.workspace.locales" */
 interface StudioProjectWorkspaceMasterParameterPresetFolderWorkspaceLocales {
+    [index: number]: StudioProjectWorkspaceMasterParameterPresetFolderWorkspaceLocales0 | StudioProjectWorkspaceMasterParameterPresetFolderWorkspaceLocales1;
     "0": StudioProjectWorkspaceMasterParameterPresetFolderWorkspaceLocales0;
     "1": StudioProjectWorkspaceMasterParameterPresetFolderWorkspaceLocales1;
     length: number;
@@ -131099,6 +131323,7 @@ interface StudioProjectWorkspaceMasterParameterPresetFolderWorkspaceMixer_reload
 
 /** @fmod-object-id 6318 @fmod-path "studio.project.workspace.masterParameterPresetFolder.workspace.platforms" */
 interface StudioProjectWorkspaceMasterParameterPresetFolderWorkspacePlatforms {
+    [index: number]: StudioProjectWorkspaceMasterParameterPresetFolderWorkspacePlatforms0 | StudioProjectWorkspaceMasterParameterPresetFolderWorkspacePlatforms1 | StudioProjectWorkspaceMasterParameterPresetFolderWorkspacePlatforms2 | StudioProjectWorkspaceMasterParameterPresetFolderWorkspacePlatforms3;
     "0": StudioProjectWorkspaceMasterParameterPresetFolderWorkspacePlatforms0;
     "1": StudioProjectWorkspaceMasterParameterPresetFolderWorkspacePlatforms1;
     "2": StudioProjectWorkspaceMasterParameterPresetFolderWorkspacePlatforms2;
@@ -131503,6 +131728,7 @@ interface StudioProjectWorkspaceMasterSandboxFolderIsOfTypePrototype {
 
 /** @fmod-object-id 6675 @fmod-path "studio.project.workspace.masterSandboxFolder.items" */
 interface StudioProjectWorkspaceMasterSandboxFolderItems {
+    [index: number]: StudioProjectWorkspaceMasterSandboxFolderItems0 | StudioProjectWorkspaceMasterSandboxFolderItems1 | StudioProjectWorkspaceMasterSandboxFolderItems2;
     "0": StudioProjectWorkspaceMasterSandboxFolderItems0;
     "1": StudioProjectWorkspaceMasterSandboxFolderItems1;
     "2": StudioProjectWorkspaceMasterSandboxFolderItems2;
@@ -132387,6 +132613,7 @@ interface StudioProjectWorkspaceMasterSandboxFolderWorkspaceIsOfTypePrototype {
 
 /** @fmod-object-id 6925 @fmod-path "studio.project.workspace.masterSandboxFolder.workspace.locales" */
 interface StudioProjectWorkspaceMasterSandboxFolderWorkspaceLocales {
+    [index: number]: StudioProjectWorkspaceMasterSandboxFolderWorkspaceLocales0 | StudioProjectWorkspaceMasterSandboxFolderWorkspaceLocales1;
     "0": StudioProjectWorkspaceMasterSandboxFolderWorkspaceLocales0;
     "1": StudioProjectWorkspaceMasterSandboxFolderWorkspaceLocales1;
     length: number;
@@ -132887,6 +133114,7 @@ interface StudioProjectWorkspaceMasterSandboxFolderWorkspaceMixer_reload {
 
 /** @fmod-object-id 6920 @fmod-path "studio.project.workspace.masterSandboxFolder.workspace.platforms" */
 interface StudioProjectWorkspaceMasterSandboxFolderWorkspacePlatforms {
+    [index: number]: StudioProjectWorkspaceMasterSandboxFolderWorkspacePlatforms0 | StudioProjectWorkspaceMasterSandboxFolderWorkspacePlatforms1 | StudioProjectWorkspaceMasterSandboxFolderWorkspacePlatforms2 | StudioProjectWorkspaceMasterSandboxFolderWorkspacePlatforms3;
     "0": StudioProjectWorkspaceMasterSandboxFolderWorkspacePlatforms0;
     "1": StudioProjectWorkspaceMasterSandboxFolderWorkspacePlatforms1;
     "2": StudioProjectWorkspaceMasterSandboxFolderWorkspacePlatforms2;
@@ -133291,6 +133519,7 @@ interface StudioProjectWorkspaceMasterTagFolderIsOfTypePrototype {
 
 /** @fmod-object-id 5418 @fmod-path "studio.project.workspace.masterTagFolder.items" */
 interface StudioProjectWorkspaceMasterTagFolderItems {
+    [index: number]: StudioProjectWorkspaceMasterTagFolderItems0 | StudioProjectWorkspaceMasterTagFolderItems1 | StudioProjectWorkspaceMasterTagFolderItems2 | StudioProjectWorkspaceMasterTagFolderItems3;
     "0": StudioProjectWorkspaceMasterTagFolderItems0;
     "1": StudioProjectWorkspaceMasterTagFolderItems1;
     "2": StudioProjectWorkspaceMasterTagFolderItems2;
@@ -133923,6 +134152,7 @@ interface StudioProjectWorkspaceMasterTagFolderWorkspaceIsOfTypePrototype {
 
 /** @fmod-object-id 5624 @fmod-path "studio.project.workspace.masterTagFolder.workspace.locales" */
 interface StudioProjectWorkspaceMasterTagFolderWorkspaceLocales {
+    [index: number]: StudioProjectWorkspaceMasterTagFolderWorkspaceLocales0 | StudioProjectWorkspaceMasterTagFolderWorkspaceLocales1;
     "0": StudioProjectWorkspaceMasterTagFolderWorkspaceLocales0;
     "1": StudioProjectWorkspaceMasterTagFolderWorkspaceLocales1;
     length: number;
@@ -134423,6 +134653,7 @@ interface StudioProjectWorkspaceMasterTagFolderWorkspaceMixer_reload {
 
 /** @fmod-object-id 5619 @fmod-path "studio.project.workspace.masterTagFolder.workspace.platforms" */
 interface StudioProjectWorkspaceMasterTagFolderWorkspacePlatforms {
+    [index: number]: StudioProjectWorkspaceMasterTagFolderWorkspacePlatforms0 | StudioProjectWorkspaceMasterTagFolderWorkspacePlatforms1 | StudioProjectWorkspaceMasterTagFolderWorkspacePlatforms2 | StudioProjectWorkspaceMasterTagFolderWorkspacePlatforms3;
     "0": StudioProjectWorkspaceMasterTagFolderWorkspacePlatforms0;
     "1": StudioProjectWorkspaceMasterTagFolderWorkspacePlatforms1;
     "2": StudioProjectWorkspaceMasterTagFolderWorkspacePlatforms2;
@@ -134951,6 +135182,7 @@ interface StudioProjectWorkspaceMixerMasterBusEffectChain_reload {
 
 /** @fmod-object-id 23596 @fmod-path "studio.project.workspace.mixer.masterBus.input" */
 interface StudioProjectWorkspaceMixerMasterBusInput {
+    [index: number]: StudioProjectWorkspaceMixerMasterBusInput0 | StudioProjectWorkspaceMixerMasterBusInput1 | StudioProjectWorkspaceMixerMasterBusInput2 | StudioProjectWorkspaceMixerMasterBusInput3;
     "0": StudioProjectWorkspaceMixerMasterBusInput0;
     "1": StudioProjectWorkspaceMixerMasterBusInput1;
     "2": StudioProjectWorkspaceMixerMasterBusInput2;
@@ -136111,6 +136343,7 @@ interface StudioProjectWorkspaceMixerWorkspaceIsOfTypePrototype {
 
 /** @fmod-object-id 23821 @fmod-path "studio.project.workspace.mixer.workspace.locales" */
 interface StudioProjectWorkspaceMixerWorkspaceLocales {
+    [index: number]: StudioProjectWorkspaceMixerWorkspaceLocales0 | StudioProjectWorkspaceMixerWorkspaceLocales1;
     "0": StudioProjectWorkspaceMixerWorkspaceLocales0;
     "1": StudioProjectWorkspaceMixerWorkspaceLocales1;
     length: number;
@@ -136611,6 +136844,7 @@ interface StudioProjectWorkspaceMixerWorkspaceMixer_reload {
 
 /** @fmod-object-id 23816 @fmod-path "studio.project.workspace.mixer.workspace.platforms" */
 interface StudioProjectWorkspaceMixerWorkspacePlatforms {
+    [index: number]: StudioProjectWorkspaceMixerWorkspacePlatforms0 | StudioProjectWorkspaceMixerWorkspacePlatforms1 | StudioProjectWorkspaceMixerWorkspacePlatforms2 | StudioProjectWorkspaceMixerWorkspacePlatforms3;
     "0": StudioProjectWorkspaceMixerWorkspacePlatforms0;
     "1": StudioProjectWorkspaceMixerWorkspacePlatforms1;
     "2": StudioProjectWorkspaceMixerWorkspacePlatforms2;
@@ -136970,6 +137204,7 @@ interface StudioProjectWorkspaceMixer_reloadPrototype {
 
 /** @fmod-object-id 24054 @fmod-path "studio.project.workspace.platforms" */
 interface StudioProjectWorkspacePlatforms {
+    [index: number]: StudioProjectWorkspacePlatforms0 | StudioProjectWorkspacePlatforms1 | StudioProjectWorkspacePlatforms2 | StudioProjectWorkspacePlatforms3;
     "0": StudioProjectWorkspacePlatforms0;
     "1": StudioProjectWorkspacePlatforms1;
     "2": StudioProjectWorkspacePlatforms2;
@@ -137004,6 +137239,7 @@ interface StudioProjectWorkspacePlatforms0 {
 
 /** @fmod-object-id 24124 @fmod-path "studio.project.workspace.platforms[\"0\"].associatedSettings" */
 interface StudioProjectWorkspacePlatforms0AssociatedSettings {
+    [index: number]: StudioProjectWorkspacePlatforms0AssociatedSettings0;
     "0": StudioProjectWorkspacePlatforms0AssociatedSettings0;
     length: number;
 }
@@ -137413,6 +137649,7 @@ interface StudioProjectWorkspacePlatforms1 {
 
 /** @fmod-object-id 24196 @fmod-path "studio.project.workspace.platforms[\"1\"].associatedSettings" */
 interface StudioProjectWorkspacePlatforms1AssociatedSettings {
+    [index: number]: StudioProjectWorkspacePlatforms1AssociatedSettings0;
     "0": StudioProjectWorkspacePlatforms1AssociatedSettings0;
     length: number;
 }
@@ -137822,6 +138059,7 @@ interface StudioProjectWorkspacePlatforms2 {
 
 /** @fmod-object-id 24268 @fmod-path "studio.project.workspace.platforms[\"2\"].associatedSettings" */
 interface StudioProjectWorkspacePlatforms2AssociatedSettings {
+    [index: number]: StudioProjectWorkspacePlatforms2AssociatedSettings0;
     "0": StudioProjectWorkspacePlatforms2AssociatedSettings0;
     length: number;
 }
@@ -138231,6 +138469,7 @@ interface StudioProjectWorkspacePlatforms3 {
 
 /** @fmod-object-id 24340 @fmod-path "studio.project.workspace.platforms[\"3\"].associatedSettings" */
 interface StudioProjectWorkspacePlatforms3AssociatedSettings {
+    [index: number]: StudioProjectWorkspacePlatforms3AssociatedSettings0;
     "0": StudioProjectWorkspacePlatforms3AssociatedSettings0;
     length: number;
 }
@@ -139064,6 +139303,7 @@ interface StudioProjectWorkspaceProfilerSessionFolderWorkspaceIsOfTypePrototype 
 
 /** @fmod-object-id 24050 @fmod-path "studio.project.workspace.profilerSessionFolder.workspace.locales" */
 interface StudioProjectWorkspaceProfilerSessionFolderWorkspaceLocales {
+    [index: number]: StudioProjectWorkspaceProfilerSessionFolderWorkspaceLocales0 | StudioProjectWorkspaceProfilerSessionFolderWorkspaceLocales1;
     "0": StudioProjectWorkspaceProfilerSessionFolderWorkspaceLocales0;
     "1": StudioProjectWorkspaceProfilerSessionFolderWorkspaceLocales1;
     length: number;
@@ -139564,6 +139804,7 @@ interface StudioProjectWorkspaceProfilerSessionFolderWorkspaceMixer_reload {
 
 /** @fmod-object-id 24045 @fmod-path "studio.project.workspace.profilerSessionFolder.workspace.platforms" */
 interface StudioProjectWorkspaceProfilerSessionFolderWorkspacePlatforms {
+    [index: number]: StudioProjectWorkspaceProfilerSessionFolderWorkspacePlatforms0 | StudioProjectWorkspaceProfilerSessionFolderWorkspacePlatforms1 | StudioProjectWorkspaceProfilerSessionFolderWorkspacePlatforms2 | StudioProjectWorkspaceProfilerSessionFolderWorkspacePlatforms3;
     "0": StudioProjectWorkspaceProfilerSessionFolderWorkspacePlatforms0;
     "1": StudioProjectWorkspaceProfilerSessionFolderWorkspacePlatforms1;
     "2": StudioProjectWorkspaceProfilerSessionFolderWorkspacePlatforms2;
@@ -140268,6 +140509,7 @@ interface StudioProjectWorkspaceProjectSettingsActivePlatform {
 
 /** @fmod-object-id 4909 @fmod-path "studio.project.workspace.projectSettings.activePlatform.associatedSettings" */
 interface StudioProjectWorkspaceProjectSettingsActivePlatformAssociatedSettings {
+    [index: number]: StudioProjectWorkspaceProjectSettingsActivePlatformAssociatedSettings0;
     "0": StudioProjectWorkspaceProjectSettingsActivePlatformAssociatedSettings0;
     length: number;
 }
@@ -140676,6 +140918,7 @@ interface StudioProjectWorkspaceProjectSettingsIsOfTypePrototype {
 
 /** @fmod-object-id 4784 @fmod-path "studio.project.workspace.projectSettings.openWindows" */
 interface StudioProjectWorkspaceProjectSettingsOpenWindows {
+    [index: number]: string;
     "0": string;
     length: number;
 }
@@ -141096,6 +141339,7 @@ interface StudioProjectWorkspaceProjectSettingsWorkspaceIsOfTypePrototype {
 
 /** @fmod-object-id 5076 @fmod-path "studio.project.workspace.projectSettings.workspace.locales" */
 interface StudioProjectWorkspaceProjectSettingsWorkspaceLocales {
+    [index: number]: StudioProjectWorkspaceProjectSettingsWorkspaceLocales0 | StudioProjectWorkspaceProjectSettingsWorkspaceLocales1;
     "0": StudioProjectWorkspaceProjectSettingsWorkspaceLocales0;
     "1": StudioProjectWorkspaceProjectSettingsWorkspaceLocales1;
     length: number;
@@ -141596,6 +141840,7 @@ interface StudioProjectWorkspaceProjectSettingsWorkspaceMixer_reload {
 
 /** @fmod-object-id 5071 @fmod-path "studio.project.workspace.projectSettings.workspace.platforms" */
 interface StudioProjectWorkspaceProjectSettingsWorkspacePlatforms {
+    [index: number]: StudioProjectWorkspaceProjectSettingsWorkspacePlatforms0 | StudioProjectWorkspaceProjectSettingsWorkspacePlatforms1 | StudioProjectWorkspaceProjectSettingsWorkspacePlatforms2 | StudioProjectWorkspaceProjectSettingsWorkspacePlatforms3;
     "0": StudioProjectWorkspaceProjectSettingsWorkspacePlatforms0;
     "1": StudioProjectWorkspaceProjectSettingsWorkspacePlatforms1;
     "2": StudioProjectWorkspaceProjectSettingsWorkspacePlatforms2;
@@ -143855,6 +144100,7 @@ interface StudioProjectWorkspacePropertiesParentIsOfTypePrototype {
 
 /** @fmod-object-id 4407 @fmod-path "studio.project.workspace.properties.parent.locales" */
 interface StudioProjectWorkspacePropertiesParentLocales {
+    [index: number]: StudioProjectWorkspacePropertiesParentLocales0 | StudioProjectWorkspacePropertiesParentLocales1;
     "0": StudioProjectWorkspacePropertiesParentLocales0;
     "1": StudioProjectWorkspacePropertiesParentLocales1;
     length: number;
@@ -144355,6 +144601,7 @@ interface StudioProjectWorkspacePropertiesParentMixer_reload {
 
 /** @fmod-object-id 4402 @fmod-path "studio.project.workspace.properties.parent.platforms" */
 interface StudioProjectWorkspacePropertiesParentPlatforms {
+    [index: number]: StudioProjectWorkspacePropertiesParentPlatforms0 | StudioProjectWorkspacePropertiesParentPlatforms1 | StudioProjectWorkspacePropertiesParentPlatforms2 | StudioProjectWorkspacePropertiesParentPlatforms3;
     "0": StudioProjectWorkspacePropertiesParentPlatforms0;
     "1": StudioProjectWorkspacePropertiesParentPlatforms1;
     "2": StudioProjectWorkspacePropertiesParentPlatforms2;
@@ -144728,6 +144975,7 @@ interface StudioProjectWorkspaceRelationshipsChangelistAddPrototype {
 
 /** @fmod-object-id 4076 @fmod-path "studio.project.workspace.relationships.changelist.destinations" */
 interface StudioProjectWorkspaceRelationshipsChangelistDestinations {
+    [index: number]: StudioProjectWorkspaceRelationshipsChangelistDestinations0;
     "0": StudioProjectWorkspaceRelationshipsChangelistDestinations0;
     length: number;
 }
@@ -145085,6 +145333,7 @@ interface StudioProjectWorkspaceRelationshipsLocalesAddPrototype {
 
 /** @fmod-object-id 4203 @fmod-path "studio.project.workspace.relationships.locales.destinations" */
 interface StudioProjectWorkspaceRelationshipsLocalesDestinations {
+    [index: number]: StudioProjectWorkspaceRelationshipsLocalesDestinations0 | StudioProjectWorkspaceRelationshipsLocalesDestinations1;
     "0": StudioProjectWorkspaceRelationshipsLocalesDestinations0;
     "1": StudioProjectWorkspaceRelationshipsLocalesDestinations1;
     length: number;
@@ -145271,6 +145520,7 @@ interface StudioProjectWorkspaceRelationshipsMasterAssetFolderAddPrototype {
 
 /** @fmod-object-id 4015 @fmod-path "studio.project.workspace.relationships.masterAssetFolder.destinations" */
 interface StudioProjectWorkspaceRelationshipsMasterAssetFolderDestinations {
+    [index: number]: StudioProjectWorkspaceRelationshipsMasterAssetFolderDestinations0;
     "0": StudioProjectWorkspaceRelationshipsMasterAssetFolderDestinations0;
     length: number;
 }
@@ -145452,6 +145702,7 @@ interface StudioProjectWorkspaceRelationshipsMasterBankFolderAddPrototype {
 
 /** @fmod-object-id 3953 @fmod-path "studio.project.workspace.relationships.masterBankFolder.destinations" */
 interface StudioProjectWorkspaceRelationshipsMasterBankFolderDestinations {
+    [index: number]: StudioProjectWorkspaceRelationshipsMasterBankFolderDestinations0;
     "0": StudioProjectWorkspaceRelationshipsMasterBankFolderDestinations0;
     length: number;
 }
@@ -145633,6 +145884,7 @@ interface StudioProjectWorkspaceRelationshipsMasterEffectPresetFolderAddPrototyp
 
 /** @fmod-object-id 3891 @fmod-path "studio.project.workspace.relationships.masterEffectPresetFolder.destinations" */
 interface StudioProjectWorkspaceRelationshipsMasterEffectPresetFolderDestinations {
+    [index: number]: StudioProjectWorkspaceRelationshipsMasterEffectPresetFolderDestinations0;
     "0": StudioProjectWorkspaceRelationshipsMasterEffectPresetFolderDestinations0;
     length: number;
 }
@@ -145814,6 +146066,7 @@ interface StudioProjectWorkspaceRelationshipsMasterEventFolderAddPrototype {
 
 /** @fmod-object-id 3829 @fmod-path "studio.project.workspace.relationships.masterEventFolder.destinations" */
 interface StudioProjectWorkspaceRelationshipsMasterEventFolderDestinations {
+    [index: number]: StudioProjectWorkspaceRelationshipsMasterEventFolderDestinations0;
     "0": StudioProjectWorkspaceRelationshipsMasterEventFolderDestinations0;
     length: number;
 }
@@ -145995,6 +146248,7 @@ interface StudioProjectWorkspaceRelationshipsMasterParameterPresetFolderAddProto
 
 /** @fmod-object-id 3922 @fmod-path "studio.project.workspace.relationships.masterParameterPresetFolder.destinations" */
 interface StudioProjectWorkspaceRelationshipsMasterParameterPresetFolderDestinations {
+    [index: number]: StudioProjectWorkspaceRelationshipsMasterParameterPresetFolderDestinations0;
     "0": StudioProjectWorkspaceRelationshipsMasterParameterPresetFolderDestinations0;
     length: number;
 }
@@ -146176,6 +146430,7 @@ interface StudioProjectWorkspaceRelationshipsMasterSandboxFolderAddPrototype {
 
 /** @fmod-object-id 3984 @fmod-path "studio.project.workspace.relationships.masterSandboxFolder.destinations" */
 interface StudioProjectWorkspaceRelationshipsMasterSandboxFolderDestinations {
+    [index: number]: StudioProjectWorkspaceRelationshipsMasterSandboxFolderDestinations0;
     "0": StudioProjectWorkspaceRelationshipsMasterSandboxFolderDestinations0;
     length: number;
 }
@@ -146357,6 +146612,7 @@ interface StudioProjectWorkspaceRelationshipsMasterTagFolderAddPrototype {
 
 /** @fmod-object-id 3860 @fmod-path "studio.project.workspace.relationships.masterTagFolder.destinations" */
 interface StudioProjectWorkspaceRelationshipsMasterTagFolderDestinations {
+    [index: number]: StudioProjectWorkspaceRelationshipsMasterTagFolderDestinations0;
     "0": StudioProjectWorkspaceRelationshipsMasterTagFolderDestinations0;
     length: number;
 }
@@ -146538,6 +146794,7 @@ interface StudioProjectWorkspaceRelationshipsMixerAddPrototype {
 
 /** @fmod-object-id 4107 @fmod-path "studio.project.workspace.relationships.mixer.destinations" */
 interface StudioProjectWorkspaceRelationshipsMixerDestinations {
+    [index: number]: StudioProjectWorkspaceRelationshipsMixerDestinations0;
     "0": StudioProjectWorkspaceRelationshipsMixerDestinations0;
     length: number;
 }
@@ -146815,6 +147072,7 @@ interface StudioProjectWorkspaceRelationshipsParentIsOfTypePrototype {
 
 /** @fmod-object-id 3771 @fmod-path "studio.project.workspace.relationships.parent.locales" */
 interface StudioProjectWorkspaceRelationshipsParentLocales {
+    [index: number]: StudioProjectWorkspaceRelationshipsParentLocales0 | StudioProjectWorkspaceRelationshipsParentLocales1;
     "0": StudioProjectWorkspaceRelationshipsParentLocales0;
     "1": StudioProjectWorkspaceRelationshipsParentLocales1;
     length: number;
@@ -147315,6 +147573,7 @@ interface StudioProjectWorkspaceRelationshipsParentMixer_reload {
 
 /** @fmod-object-id 3766 @fmod-path "studio.project.workspace.relationships.parent.platforms" */
 interface StudioProjectWorkspaceRelationshipsParentPlatforms {
+    [index: number]: StudioProjectWorkspaceRelationshipsParentPlatforms0 | StudioProjectWorkspaceRelationshipsParentPlatforms1 | StudioProjectWorkspaceRelationshipsParentPlatforms2 | StudioProjectWorkspaceRelationshipsParentPlatforms3;
     "0": StudioProjectWorkspaceRelationshipsParentPlatforms0;
     "1": StudioProjectWorkspaceRelationshipsParentPlatforms1;
     "2": StudioProjectWorkspaceRelationshipsParentPlatforms2;
@@ -147668,6 +147927,7 @@ interface StudioProjectWorkspaceRelationshipsPlatformsAddPrototype {
 
 /** @fmod-object-id 4169 @fmod-path "studio.project.workspace.relationships.platforms.destinations" */
 interface StudioProjectWorkspaceRelationshipsPlatformsDestinations {
+    [index: number]: StudioProjectWorkspaceRelationshipsPlatformsDestinations0 | StudioProjectWorkspaceRelationshipsPlatformsDestinations1 | StudioProjectWorkspaceRelationshipsPlatformsDestinations2 | StudioProjectWorkspaceRelationshipsPlatformsDestinations3;
     "0": StudioProjectWorkspaceRelationshipsPlatformsDestinations0;
     "1": StudioProjectWorkspaceRelationshipsPlatformsDestinations1;
     "2": StudioProjectWorkspaceRelationshipsPlatformsDestinations2;
@@ -147864,6 +148124,7 @@ interface StudioProjectWorkspaceRelationshipsProfilerSessionFolderAddPrototype {
 
 /** @fmod-object-id 4138 @fmod-path "studio.project.workspace.relationships.profilerSessionFolder.destinations" */
 interface StudioProjectWorkspaceRelationshipsProfilerSessionFolderDestinations {
+    [index: number]: StudioProjectWorkspaceRelationshipsProfilerSessionFolderDestinations0;
     "0": StudioProjectWorkspaceRelationshipsProfilerSessionFolderDestinations0;
     length: number;
 }
@@ -148045,6 +148306,7 @@ interface StudioProjectWorkspaceRelationshipsProjectSettingsAddPrototype {
 
 /** @fmod-object-id 3798 @fmod-path "studio.project.workspace.relationships.projectSettings.destinations" */
 interface StudioProjectWorkspaceRelationshipsProjectSettingsDestinations {
+    [index: number]: StudioProjectWorkspaceRelationshipsProjectSettingsDestinations0;
     "0": StudioProjectWorkspaceRelationshipsProjectSettingsDestinations0;
     length: number;
 }

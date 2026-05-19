@@ -13,12 +13,18 @@ export interface HostMemberIR {
     startsWithUnderscore: boolean;
 }
 
+export interface HostIndexSignatureIR {
+    indexType: "number";
+    valueTypeText: string;
+}
+
 export interface HostInterfaceIR {
     id: number;
     name: string;
     kind: "object" | "function";
     firstPath: string;
     extendsName?: string;
+    indexSignature?: HostIndexSignatureIR;
     members: HostMemberIR[];
 }
 
@@ -172,6 +178,54 @@ function stableSortStrings(values: string[]): string[] {
         }
         return 0;
     });
+}
+
+function isArrayIndexName(name: string): boolean {
+    return /^(0|[1-9][0-9]*)$/.test(name);
+}
+
+function uniqueTypeTexts(values: string[]): string[] {
+    const seen: Record<string, true> = Object.create(null);
+    const out: string[] = [];
+    for (let i = 0; i < values.length; i += 1) {
+        const value = values[i];
+        if (!value || seen[value]) {
+            continue;
+        }
+        seen[value] = true;
+        out.push(value);
+    }
+    return out.sort(function (a, b) {
+        return a < b ? -1 : a > b ? 1 : 0;
+    });
+}
+
+function detectIndexSignature(members: HostMemberIR[]): HostIndexSignatureIR | undefined {
+    let hasLength = false;
+    const elementTypes: string[] = [];
+
+    for (let i = 0; i < members.length; i += 1) {
+        const member = members[i];
+        if (member.kind !== "property") {
+            continue;
+        }
+        if (member.name === "length" && member.typeText === "number") {
+            hasLength = true;
+            continue;
+        }
+        if (isArrayIndexName(member.name) && member.typeText) {
+            elementTypes.push(member.typeText);
+        }
+    }
+
+    if (!hasLength || elementTypes.length === 0) {
+        return undefined;
+    }
+
+    return {
+        indexType: "number",
+        valueTypeText: uniqueTypeTexts(elementTypes).join(" | ")
+    };
 }
 
 function isTopLevelProjectModelEntityPath(pathText: string): boolean {
@@ -454,6 +508,7 @@ function mergeRuntime(parsed: ParsedProbeData, warnings: string[]): {
                 }
                 return baseName;
             })(),
+            indexSignature: detectIndexSignature(members),
             members
         });
     }

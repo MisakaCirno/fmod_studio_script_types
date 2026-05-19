@@ -269,13 +269,29 @@ declare const enum FmodSpeakerFormat {
     Surround71 = 6
 }
 
-type FmodPlatformObject = Omit<StudioProjectWorkspacePlatforms0, "hardwareType" | "speakerFormat"> & {
-    hardwareType: FmodPlatformHardwareTypeValue;
-    speakerFormat: FmodSpeakerFormatValue;
+type FmodDistributiveOmit<T, K extends keyof any> = T extends any ? Omit<T, K> : never;
+
+type FmodPlatformRuntimeObject = StudioProjectWorkspacePlatforms extends { [index: number]: infer T }
+    ? T
+    : StudioProjectWorkspacePlatforms0;
+
+type FmodPlatformObject = FmodDistributiveOmit<FmodPlatformRuntimeObject, "hardwareType" | "speakerFormat"> & {
+    hardwareType: FmodPlatformHardwareTypeValue | number;
+    speakerFormat: FmodSpeakerFormatValue | number;
 };
 
+type FmodPlatformCollection = StudioProjectWorkspacePlatforms & {
+    readonly length: number;
+    [index: number]: FmodPlatformObject;
+    push(...items: FmodPlatformObject[]): number;
+};
+
+interface StudioProjectWorkspacePlatforms {
+    push(...items: FmodPlatformObject[]): number;
+}
+
 type FmodWorkspaceObject = Omit<StudioProjectWorkspace, "platforms"> & {
-    platforms: FmodPlatformObject[];
+    platforms: FmodPlatformCollection;
 };
 
 type FmodEncodingFormatValue = 0 | 1 | 3;
