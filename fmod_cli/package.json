@@ -1,0 +1,12 @@
+{
+  "name": "fmod-cli-probes",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "info": "node fmodstudiocl-info.js",
+    "probe": "node tcp-probe.js",
+    "exec": "node tcp-exec.js",
+    "try:reload:scripts": "node tcp-exec.js --file examples/reload-scripts.js --yes --timeout 5000"
+  }
+}
